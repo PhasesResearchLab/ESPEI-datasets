@@ -12,4 +12,4 @@ The data here is Creative Commons Attribution 4.0 (CC-BY-4.0) licensed.
 Unsolicted pull requests are welcome!
 * Please include your references in the references.bib file and make sure your datasets are labelled with references where applicable.
 * Datasets should go in the folder of the subsystem they belong to. Split up the data (even from the same reference) into binary, ternary, etc. subsystem folders.
-
+* Add yourself to the contributors with your email and any systems you have contributed to, e.g. `Brandon Bocklund; bocklund@psu.edu; CU-MG, CU-MG-NI`
