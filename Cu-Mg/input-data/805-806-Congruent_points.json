@@ -1,0 +1,15 @@
+{
+  "components": ["CU", "MG", "VA"],
+  "phases": ["LIQUID", "LAVES_C15"],
+  "conditions": {
+    "P": 101325,
+    "T": [1093.15, 1066.15]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":   [
+               [["LIQUID", ["MG"], [0.33333]], ["LAVES_C15", ["MG"],  [0.33333]]],
+               [["LIQUID", ["MG"], [0.33333]], ["LAVES_C15", ["MG"],  [0.33333]]]
+              ],
+  "reference": "31Jon, 78Bag"
+}

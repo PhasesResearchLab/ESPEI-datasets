@@ -1,0 +1,21 @@
+{
+  "components": ["CU", "MG", "VA"],
+  "phases": ["LIQUID", "HCP_A3", "CUMG2"],
+  "conditions": {
+      "P": 101325,
+      "T": [800, 825, 850, 400, 500, 600, 625]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":   [
+               [["HCP_A3", ["MG"], [1.0]], ["LIQUID", ["MG"], [null]]],
+               [["HCP_A3", ["MG"], [1.0]], ["LIQUID", ["MG"], [null]]],
+               [["HCP_A3", ["MG"], [1.0]], ["LIQUID", ["MG"], [null]]],
+               [["HCP_A3", ["MG"], [1.0]], ["CUMG2", ["MG"], [null]]],
+               [["HCP_A3", ["MG"], [1.0]], ["CUMG2", ["MG"], [null]]],
+               [["HCP_A3", ["MG"], [1.0]], ["CUMG2", ["MG"], [null]]],
+               [["HCP_A3", ["MG"], [1.0]], ["CUMG2", ["MG"], [null]]]
+              ],
+    "reference": "estimate"
+}
+

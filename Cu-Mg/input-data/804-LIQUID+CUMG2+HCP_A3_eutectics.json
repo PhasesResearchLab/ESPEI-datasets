@@ -1,0 +1,14 @@
+{
+  "components": ["CU", "MG", "VA"],
+  "phases": ["LIQUID", "HCP_A3", "CUMG2"],
+  "conditions": {
+    "P": 101325,
+    "T": 758.15
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":   [
+               [["HCP_A3", ["MG"], [null]], ["CUMG2", ["MG"], [null]], ["LIQUID", ["MG"], [0.855]]]
+              ],
+  "reference": "31Jon"
+}

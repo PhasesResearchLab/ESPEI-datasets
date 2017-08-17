@@ -1,0 +1,14 @@
+{
+  "components": ["CU", "MG", "VA"],
+  "phases": ["FCC_A1", "LAVES_C15", "LIQUID"],
+  "conditions": {
+    "P": 101325,
+    "T": 995.15
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":   [
+               [["LAVES_C15", ["MG"], [null]], ["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.219]]]
+              ],
+  "reference": "31Jon"
+}
