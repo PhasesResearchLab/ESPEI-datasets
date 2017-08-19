@@ -16,7 +16,7 @@
                [["FCC_A1", ["MG"], [0.0459052]], ["LIQUID", ["MG"], [null]]],
                [["FCC_A1", ["MG"], [0.0329389]], ["LIQUID", ["MG"], [null]]]
               ],
-    "reference": "Jones, W. R. D. The Copper-Magnesium Alloys. Part IV. The Equilibrium Diagram. J. Inst. Met. 46, 395–419 (1931).",
+    "reference": "Jones1931",
     "comment": "solubility lines from Fig A, converted to atomic percent"
 }
 

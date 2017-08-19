@@ -16,6 +16,7 @@
                [["HCP_A3", ["MG"], [1.0]], ["CUMG2", ["MG"], [null]]],
                [["HCP_A3", ["MG"], [1.0]], ["CUMG2", ["MG"], [null]]]
               ],
-    "reference": "estimate"
+    "reference": "",
+    "comment": "estimate"
 }
 

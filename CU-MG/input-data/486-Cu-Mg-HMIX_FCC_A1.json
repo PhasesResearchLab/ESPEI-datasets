@@ -17,5 +17,6 @@
   },
   "output": "HM_MIX",
   "values":   [[[-2600]]],
-  "reference": "07Wol"
+  "reference": "",
+  "comment": "unknown reference, previously marked 07Wol"
 }

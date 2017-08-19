@@ -21,5 +21,6 @@
   },
   "output": "HM_MIX",
   "values":   [[[1120, 5650, 5810]]],
-  "reference": "07Shi"
+  "reference": "",
+  "comment": "unknown reference previously Shi07"
 }

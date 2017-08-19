@@ -36,17 +36,7 @@
                [["LAVES_C15", ["MG"], [0.33691]], ["CUMG2", ["MG"], [null]]],
                [["LAVES_C15", ["MG"], [0.33716]], ["CUMG2", ["MG"], [null]]]
               ],
-    "reference": "Jones, W. R. D. The Copper-Magnesium Alloys. Part IV. The Equilibrium Diagram. J. Inst. Met. 46, 395–419 (1931).",
+    "reference": "Jones1931",
     "comment": "solubility lines from Fig 3"
 }
-
-
-
-
-
-
-
-
-
-
 
