@@ -1,0 +1,30 @@
+{
+  "components": ["FE", "TI"],
+  "phases": ["LIQUID", "BCC_A2"],
+  "conditions": {
+	  "P": 101325,
+	    "T": [ 1925.7732, 1878.8664,  1812.27  ,  1646.9093,  1630.7732,
+        1818.5938,  1765.5465,  1735.0718,  1641.9974,  1401.2488,
+        1408.9768,  1420.1655]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":   [
+      [["LIQUID", ["FE"],  [0.025]], ["BCC_A2", ["FE"], [null]]],
+      [["LIQUID", ["FE"],  [0.050]], ["BCC_A2", ["FE"], [null]]],
+	    [["LIQUID", ["FE"],  [0.075]], ["BCC_A2", ["FE"], [null]]],
+	    [["LIQUID", ["FE"],  [0.160]], ["BCC_A2", ["FE"], [null]]],
+	    [["LIQUID", ["FE"],  [0.160]], ["BCC_A2", ["FE"], [null]]],
+	    [["BCC_A2", ["FE"],  [0.025]], ["LIQUID", ["FE"], [null]]],
+	    [["BCC_A2", ["FE"],  [0.040]], ["LIQUID", ["FE"], [null]]],
+	    [["BCC_A2", ["FE"],  [0.050]], ["LIQUID", ["FE"], [null]]],
+	    [["BCC_A2", ["FE"],  [0.075]], ["LIQUID", ["FE"], [null]]],
+	    [["BCC_A2", ["FE"],  [0.160]], ["LIQUID", ["FE"], [null]]],
+	    [["BCC_A2", ["FE"],  [0.160]], ["LIQUID", ["FE"], [null]]],
+      [["BCC_A2", ["FE"],  [0.160]], ["LIQUID", ["FE"], [null]]]
+              ],
+    "reference": "kivilahti1987determination",
+    "comment": "Figure 1. DTA measurements"
+
+}
+
