@@ -1,0 +1,39 @@
+{
+  "components": ["FE", "CU"],
+    "phases": ["LIQUID", "BCC_A2", "FCC_A1"],
+  "conditions": {
+	  "P": 101325,
+	    "T":
+      [
+          1789.15, 1783.15,
+          1776.15, 1766.15, 1734.65, 1735.15,
+          1769.15, 1763.65, 1757.15, 1757.15, 1751.15, 1745.15,
+          1728.15, 1711.15
+      ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":
+    [
+ 	    [["LIQUID", ["CU"],  [0.0260]], ["BCC_A2", ["CU"], [null]]],
+	    [["BCC_A2", ["CU"],  [0.0260]], ["LIQUID", ["CU"], [null]]],
+
+ 	    [["LIQUID", ["CU"],  [0.0481]], ["BCC_A2", ["CU"], [null]]],
+	    [["BCC_A2", ["CU"],  [0.0481]], ["LIQUID", ["CU"], [null]]],
+	    [["BCC_A2", ["CU"],  [0.0481]], ["FCC_A1", ["CU"], [null]]],
+	    [["FCC_A1", ["CU"],  [0.0481]], ["BCC_A2", ["CU"], [null]]],
+
+	    [["LIQUID", ["CU"],  [0.0667]], ["BCC_A2", ["CU"], [null]]],
+	    [["LIQUID", ["CU"],  [0.0744]], ["BCC_A2", ["CU"], [null]]],
+	    [["LIQUID", ["CU"],  [0.0898]], ["BCC_A2", ["CU"], [null]]],
+	    [["LIQUID", ["CU"],  [0.0917]], ["BCC_A2", ["CU"], [null]]],
+	    [["LIQUID", ["CU"],  [0.098]], ["BCC_A2", ["CU"], [null]]],
+      [["LIQUID", ["CU"],  [0.133]], ["BCC_A2", ["CU"], [null]]],
+
+	    [["LIQUID", ["CU"],  [0.1968]], ["FCC_A1", ["CU"], [null]]],
+	    [["LIQUID", ["CU"],  [0.286]], ["FCC_A1", ["CU"], [null]]]
+ ],
+    "reference": "hellawell1957constitution",
+    "comment": "Figure 13 and Table A7. I did not trust the gamma/delta solubility reported past 4.81%Cu and only took liquidus data."
+}
+
