@@ -1,0 +1,55 @@
+{
+  "components": ["FE", "NI"],
+    "phases": ["LIQUID", "BCC_A2", "FCC_A1"],
+  "conditions": {
+	  "P": 101325,
+	    "T":
+      [
+          1797.15, 1795.15, 1724.15, 1731.15,
+          1793.15, 1789.15, 1753.15, 1752.15,
+          1790.15, 1784.15, 1773.15, 1776.65,
+          1786.15, 1781.65,
+          1783.65, 1780.15,
+          1779.65, 1774.65,
+          1773.65, 1769.65,
+          1768.15, 1762.15
+      ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":
+    [
+ 	    [["LIQUID", ["NI"],  [0.0184]], ["BCC_A2", ["NI"], [null]]],
+	    [["BCC_A2", ["NI"],  [0.0184]], ["LIQUID", ["NI"], [null]]],
+	    [["BCC_A2", ["NI"],  [0.0184]], ["FCC_A1", ["NI"], [null]]],
+	    [["FCC_A1", ["NI"],  [0.0184]], ["BCC_A2", ["NI"], [null]]],
+
+ 	    [["LIQUID", ["NI"],  [0.0279]], ["BCC_A2", ["NI"], [null]]],
+	    [["BCC_A2", ["NI"],  [0.0279]], ["LIQUID", ["NI"], [null]]],
+	    [["BCC_A2", ["NI"],  [0.0279]], ["FCC_A1", ["NI"], [null]]],
+	    [["FCC_A1", ["NI"],  [0.0279]], ["BCC_A2", ["NI"], [null]]],
+
+ 	    [["LIQUID", ["NI"],  [0.0376]], ["BCC_A2", ["NI"], [null]]],
+	    [["BCC_A2", ["NI"],  [0.0376]], ["LIQUID", ["NI"], [null]]],
+	    [["BCC_A2", ["NI"],  [0.0376]], ["FCC_A1", ["NI"], [null]]],
+	    [["FCC_A1", ["NI"],  [0.0376]], ["BCC_A2", ["NI"], [null]]],
+
+	    [["LIQUID", ["NI"],  [0.0462]], ["FCC_A1", ["NI"], [null]]],
+	    [["FCC_A1", ["NI"],  [0.0462]], ["LIQUID", ["NI"], [null]]],
+
+	    [["LIQUID", ["NI"],  [0.0527]], ["FCC_A1", ["NI"], [null]]],
+	    [["FCC_A1", ["NI"],  [0.0527]], ["LIQUID", ["NI"], [null]]],
+
+	    [["LIQUID", ["NI"],  [0.0761]], ["FCC_A1", ["NI"], [null]]],
+	    [["FCC_A1", ["NI"],  [0.0761]], ["LIQUID", ["NI"], [null]]],
+
+	    [["LIQUID", ["NI"],  [0.0895]], ["FCC_A1", ["NI"], [null]]],
+	    [["FCC_A1", ["NI"],  [0.0895]], ["LIQUID", ["NI"], [null]]],
+
+	    [["LIQUID", ["NI"],  [0.1233]], ["FCC_A1", ["NI"], [null]]],
+	    [["FCC_A1", ["NI"],  [0.1233]], ["LIQUID", ["NI"], [null]]]
+ ],
+    "reference": "hellawell1957constitution",
+    "comment": "Figure 12 and Table A6. The text says table A5, but the correct table is A6."
+}
+
