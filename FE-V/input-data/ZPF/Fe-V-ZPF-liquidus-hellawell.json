@@ -1,0 +1,46 @@
+{
+  "components": ["FE", "V"],
+    "phases": ["LIQUID", "BCC_A2"],
+  "conditions": {
+	  "P": 101325,
+	    "T":
+      [
+          1804.15, 1803.15, 1618.15, 1633.15, 1209.15, 1238.15,
+          1803.15,  1800.15,
+          1783.15,  1776.65,
+          1782.15,  1776.65,
+          1763.65,  1757.15,
+          1751.15,  1748.15,  1746.65,  1748.15
+      ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":   [
+	    [["LIQUID", ["V"],  [0.0054]], ["BCC_A2", ["V"], [null]]],
+	    [["BCC_A2", ["V"],  [0.0054]], ["LIQUID", ["V"], [null]]],
+	    [["BCC_A2", ["V"],  [0.0054]], ["BCC_A2", ["V"], [null]]],
+	    [["BCC_A2", ["V"],  [0.0054]], ["BCC_A2", ["V"], [null]]],
+	    [["BCC_A2", ["V"],  [0.0054]], ["BCC_A2", ["V"], [null]]],
+	    [["BCC_A2", ["V"],  [0.0054]], ["BCC_A2", ["V"], [null]]],
+
+ 	    [["LIQUID", ["V"],  [0.0155]], ["BCC_A2", ["V"], [null]]],
+	    [["BCC_A2", ["V"],  [0.0155]], ["LIQUID", ["V"], [null]]],
+
+ 	    [["LIQUID", ["V"],  [0.101]], ["BCC_A2", ["V"], [null]]],
+	    [["BCC_A2", ["V"],  [0.101]], ["LIQUID", ["V"], [null]]],
+
+ 	    [["LIQUID", ["V"],  [0.105]], ["BCC_A2", ["V"], [null]]],
+	    [["BCC_A2", ["V"],  [0.105]], ["LIQUID", ["V"], [null]]],
+
+ 	    [["LIQUID", ["V"],  [0.185]], ["BCC_A2", ["V"], [null]]],
+	    [["BCC_A2", ["V"],  [0.185]], ["LIQUID", ["V"], [null]]],
+
+ 	    [["LIQUID", ["V"],  [0.258]], ["BCC_A2", ["V"], [null]]],
+ 	    [["LIQUID", ["V"],  [0.273]], ["BCC_A2", ["V"], [null]]],
+ 	    [["LIQUID", ["V"],  [0.305]], ["BCC_A2", ["V"], [null]]],
+ 	    [["LIQUID", ["V"],  [0.394]], ["BCC_A2", ["V"], [null]]]
+              ],
+    "reference": "hellawell1957constitution",
+    "comment": "Figure 9. and Table A2. Note the typo 17.3->27.3 in the table. There was some noted W contamination at 10.1%, 10.5%, and 39.4% (less than 1 at.%)."
+}
+
