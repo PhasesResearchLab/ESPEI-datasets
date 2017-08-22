@@ -1,0 +1,52 @@
+{
+  "components": ["FE", "CR"],
+    "phases": ["LIQUID", "BCC_A2"],
+  "conditions": {
+	  "P": 101325,
+	    "T":
+      [
+          1803.65, 1801.15,
+          1800.15, 1796.65,
+          1794.65, 1790.15,
+          1787.15, 1784.65,
+          1783.65, 1783.15,
+          1785.15, 1783.65,
+          1793.65, 1789.15,
+          1797.65, 1791.65,
+          1810.65, 1800.15
+      ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":   [
+ 	    [["LIQUID", ["CR"],  [0.0189]], ["BCC_A2", ["CR"], [null]]],
+	    [["BCC_A2", ["CR"],  [0.0189]], ["LIQUID", ["CR"], [null]]],
+
+ 	    [["LIQUID", ["CR"],  [0.044]], ["BCC_A2", ["CR"], [null]]],
+	    [["BCC_A2", ["CR"],  [0.044]], ["LIQUID", ["CR"], [null]]],
+
+ 	    [["LIQUID", ["CR"],  [0.0872]], ["BCC_A2", ["CR"], [null]]],
+	    [["BCC_A2", ["CR"],  [0.0872]], ["LIQUID", ["CR"], [null]]],
+
+ 	    [["LIQUID", ["CR"],  [0.1435]], ["BCC_A2", ["CR"], [null]]],
+	    [["BCC_A2", ["CR"],  [0.1435]], ["LIQUID", ["CR"], [null]]],
+
+ 	    [["LIQUID", ["CR"],  [0.1969]], ["BCC_A2", ["CR"], [null]]],
+	    [["BCC_A2", ["CR"],  [0.1969]], ["LIQUID", ["CR"], [null]]],
+
+ 	    [["LIQUID", ["CR"],  [0.2489]], ["BCC_A2", ["CR"], [null]]],
+	    [["BCC_A2", ["CR"],  [0.2489]], ["LIQUID", ["CR"], [null]]],
+
+ 	    [["LIQUID", ["CR"],  [0.3305]], ["BCC_A2", ["CR"], [null]]],
+	    [["BCC_A2", ["CR"],  [0.3305]], ["LIQUID", ["CR"], [null]]],
+
+ 	    [["LIQUID", ["CR"],  [0.3495]], ["BCC_A2", ["CR"], [null]]],
+	    [["BCC_A2", ["CR"],  [0.3495]], ["LIQUID", ["CR"], [null]]],
+
+	    [["LIQUID", ["CR"],  [0.398]], ["BCC_A2", ["CR"], [null]]],
+	    [["BCC_A2", ["CR"],  [0.398]], ["LIQUID", ["CR"], [null]]]
+      ],
+    "reference": "hellawell1957constitution",
+    "comment": "Figure 10 and Table A3."
+}
+
