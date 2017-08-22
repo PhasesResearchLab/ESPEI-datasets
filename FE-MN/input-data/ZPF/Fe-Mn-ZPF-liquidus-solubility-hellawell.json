@@ -1,0 +1,56 @@
+{
+  "components": ["FE", "MN"],
+    "phases": ["LIQUID", "BCC_A2", "FCC_A1"],
+  "conditions": {
+	  "P": 101325,
+	    "T":
+      [
+          1795.65,  1787.15,
+          1783.15, 1772.15, 1717.15, 1719.15,
+          1772.15, 1760.15, 1731.65, 1732.65,
+          1764.15, 1751.15, 1739.15, 1741.15,
+          1757.65, 1743.15,
+          1753.65, 1739.15,
+          1742.65, 1724.15,
+          1713.15, 1694.65
+      ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":
+    [
+ 	    [["LIQUID", ["MN"],  [0.019]], ["BCC_A2", ["MN"], [null]]],
+	    [["BCC_A2", ["MN"],  [0.019]], ["LIQUID", ["MN"], [null]]],
+
+ 	    [["LIQUID", ["MN"],  [0.0464]], ["BCC_A2", ["MN"], [null]]],
+	    [["BCC_A2", ["MN"],  [0.0464]], ["LIQUID", ["MN"], [null]]],
+	    [["BCC_A2", ["MN"],  [0.0464]], ["FCC_A1", ["MN"], [null]]],
+	    [["FCC_A1", ["MN"],  [0.0464]], ["BCC_A2", ["MN"], [null]]],
+
+ 	    [["LIQUID", ["MN"],  [0.0694]], ["BCC_A2", ["MN"], [null]]],
+	    [["BCC_A2", ["MN"],  [0.0694]], ["LIQUID", ["MN"], [null]]],
+	    [["BCC_A2", ["MN"],  [0.0694]], ["FCC_A1", ["MN"], [null]]],
+	    [["FCC_A1", ["MN"],  [0.0694]], ["BCC_A2", ["MN"], [null]]],
+
+ 	    [["LIQUID", ["MN"],  [0.0864]], ["BCC_A2", ["MN"], [null]]],
+	    [["BCC_A2", ["MN"],  [0.0864]], ["LIQUID", ["MN"], [null]]],
+	    [["BCC_A2", ["MN"],  [0.0864]], ["FCC_A1", ["MN"], [null]]],
+	    [["FCC_A1", ["MN"],  [0.0864]], ["BCC_A2", ["MN"], [null]]],
+
+ 	    [["LIQUID", ["MN"],  [0.1009]], ["FCC_A1", ["MN"], [null]]],
+	    [["FCC_A1", ["MN"],  [0.1009]], ["LIQUID", ["MN"], [null]]],
+
+ 	    [["LIQUID", ["MN"],  [0.1187]], ["FCC_A1", ["MN"], [null]]],
+	    [["FCC_A1", ["MN"],  [0.1187]], ["LIQUID", ["MN"], [null]]],
+
+ 	    [["LIQUID", ["MN"],  [0.1380]], ["FCC_A1", ["MN"], [null]]],
+	    [["FCC_A1", ["MN"],  [0.1380]], ["LIQUID", ["MN"], [null]]],
+
+	    [["LIQUID", ["MN"],  [0.234]], ["FCC_A1", ["MN"], [null]]],
+	    [["FCC_A1", ["MN"],  [0.234]], ["LIQUID", ["MN"], [null]]]
+
+  ],
+    "reference": "hellawell1957constitution",
+    "comment": "Figures 11 and Table A4. Note that on the figure the cooling delta/gamma reactions are higher than heating, but the data seems to reflect the opposite. Peritectic points not included."
+}
+
