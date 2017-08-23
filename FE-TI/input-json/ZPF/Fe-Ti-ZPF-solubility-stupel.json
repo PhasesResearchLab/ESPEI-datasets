@@ -1,0 +1,28 @@
+{
+  "components": ["FE", "TI"],
+    "phases": ["BCC_B2", "HCP_A3"],
+  "conditions": {
+	  "P": 101325,
+	    "T":
+      [
+          853.15, 853.15, 773.15, 693.15, 633.15
+      ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":
+    [
+	    [["HCP_A3", ["FE"],  [0.000471]], ["BCC_B2", ["FE"], [null]]],
+	    [["HCP_A3", ["FE"],  [0.000429]], ["BCC_B2", ["FE"], [null]]],
+	    [["HCP_A3", ["FE"],  [0.000300]], ["BCC_B2", ["FE"], [null]]],
+	    [["HCP_A3", ["FE"],  [0.000137]], ["BCC_B2", ["FE"], [null]]],
+	    [["HCP_A3", ["FE"],  [0.0000771]], ["BCC_B2", ["FE"], [null]]]
+ ],
+    "reference": "Stupel1986solubility",
+    "comment": "Solubility of iron in alpha-Ti in equil. with B2 FeTi. From Mossbauer spectral analysis. Table 1. Converted from wt% (Fe:55.845amu Ti:47.867amu)."
+}
+
+
+
+
+
