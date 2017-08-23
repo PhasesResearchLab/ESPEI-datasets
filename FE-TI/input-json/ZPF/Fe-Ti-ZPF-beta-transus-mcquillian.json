@@ -1,0 +1,23 @@
+{
+  "components": ["FE", "TI"],
+    "phases": ["BCC_A2", "HCP_A3"],
+  "conditions": {
+	  "P": 101325,
+	    "T":
+      [
+          1148.3356, 1139.4229, 1123.2123, 1097.5315, 1073.4307
+      ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":
+    [
+	    [["BCC_A2", ["FE"],  [0.005]], ["HCP_A3", ["FE"], [null]]],
+	    [["BCC_A2", ["FE"],  [0.01]], ["HCP_A3", ["FE"], [null]]],
+	    [["BCC_A2", ["FE"],  [0.02]], ["HCP_A3", ["FE"], [null]]],
+	    [["BCC_A2", ["FE"],  [0.035]], ["HCP_A3", ["FE"], [null]]],
+	    [["BCC_A2", ["FE"],  [0.05]], ["HCP_A3", ["FE"], [null]]]
+ ],
+    "reference": "mcquillan1951application",
+    "comment": "Figure 15. Calculated via Log p (of H) vs. 1/T curves."
+}
