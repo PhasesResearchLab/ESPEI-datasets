@@ -1,0 +1,20 @@
+{
+  "components": ["FE", "TI"],
+    "phases": ["BCC_B2", "LAVES_C14", "BCC_A2"],
+  "conditions": {
+	  "P": 101325,
+	    "T":
+      [
+          1273.15, 1273.15
+      ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":
+    [
+	      [["BCC_B2", ["FE"],  [0.49]], ["LAVES_C14", ["FE"], [0.63]]],
+  	    [["BCC_B2", ["FE"],  [0.47]], ["BCC_A2", ["FE"], [0.21]]]
+ ],
+    "reference": "Dew-Hughes1980addition",
+    "comment": "From Table 1. Microprobe analysis of the Fe-Ti binary in the Fe-Ti-Mn system at 1000 C."
+}
