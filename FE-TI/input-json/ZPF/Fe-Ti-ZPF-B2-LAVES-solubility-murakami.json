@@ -1,0 +1,55 @@
+{
+  "components": ["FE", "TI"],
+    "phases": ["BCC_B2", "LAVES_C14", "BCC_A2"],
+  "conditions": {
+	  "P": 101325,
+	    "T":
+      [
+          1075.1235, 1321.2827, 1422.4288,
+          1574.7131,
+          1574.5344, 1421.8485, 1319.7507, 1070.5878,
+          1071.6711, 1320.6313, 1570.9115,
+          1568.6406, 1319.9445, 1074.4043
+
+      ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":
+    [
+	      [["BCC_B2", ["FE"],  [0.4855]], ["BCC_A2", ["FE"], [null]]],
+	      [["BCC_B2", ["FE"],  [0.4791]], ["BCC_A2", ["FE"], [null]]],
+	      [["BCC_B2", ["FE"],  [0.4789]], ["BCC_A2", ["FE"], [null]]],
+
+        [["BCC_B2", ["FE"],  [0.4861]], ["LIQUID", ["FE"], [null]]],
+
+        [["BCC_B2", ["FE"],  [0.5058]], ["LAVES_C14", ["FE"], [null]]],
+        [["BCC_B2", ["FE"],  [0.5053]], ["LAVES_C14", ["FE"], [null]]],
+        [["BCC_B2", ["FE"],  [0.5044]], ["LAVES_C14", ["FE"], [null]]],
+        [["BCC_B2", ["FE"],  [0.5104]], ["LAVES_C14", ["FE"], [null]]],
+
+        [["LAVES_C14", ["FE"],  [0.6641]], ["BCC_B2", ["FE"], [null]]],
+        [["LAVES_C14", ["FE"],  [0.6569]], ["BCC_B2", ["FE"], [null]]],
+        [["LAVES_C14", ["FE"],  [0.6444]], ["BCC_B2", ["FE"], [null]]],
+
+        [["LAVES_C14", ["FE"],  [0.7376]], ["BCC_A2", ["FE"], [null]]],
+        [["LAVES_C14", ["FE"],  [0.7358]], ["BCC_A2", ["FE"], [null]]],
+        [["LAVES_C14", ["FE"],  [0.7385]], ["BCC_A2", ["FE"], [null]]]
+
+ ],
+    "reference": "murakami1959investigation",
+    "comment": "From Figure 9. Interpolated from single- and two-phase (XRD/micrograph) regions. Converted from weight percent."
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
