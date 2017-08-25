@@ -1,0 +1,50 @@
+{
+  "components": ["FE", "TI"],
+    "phases": ["BCC_A2", "FCC_A1"],
+  "conditions": {
+	  "P": 101325,
+	    "T":
+      [
+          1183.15, 1186.15,
+          1182.15, 1197.15,
+          1176.15, 1185.15,
+          1172.15, 1179.15,
+          1212.15, 1223.15,
+          1222.15, 1235.15,
+          1231.15, 1249.15,
+          1326.15, 1369.15
+
+      ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":
+    [
+        [["BCC_A2", ["TI"],  [0.0]], ["FCC_A1", ["TI"], [null]]],
+        [["FCC_A1", ["TI"],  [0.0]], ["BCC_A2", ["TI"], [null]]],
+
+        [["BCC_A2", ["TI"],  [0.0010498]], ["FCC_A1", ["TI"], [null]]],
+        [["FCC_A1", ["TI"],  [0.0010498]], ["BCC_A2", ["TI"], [null]]],
+
+        [["BCC_A2", ["TI"],  [0.0024492]], ["FCC_A1", ["TI"], [null]]],
+        [["FCC_A1", ["TI"],  [0.0024492]], ["BCC_A2", ["TI"], [null]]],
+
+        [["BCC_A2", ["TI"],  [0.0029155]], ["FCC_A1", ["TI"], [null]]],
+        [["FCC_A1", ["TI"],  [0.0029155]], ["BCC_A2", ["TI"], [null]]],
+
+        [["BCC_A2", ["TI"],  [0.0047801]], ["FCC_A1", ["TI"], [null]]],
+        [["FCC_A1", ["TI"],  [0.0047801]], ["BCC_A2", ["TI"], [null]]],
+
+        [["BCC_A2", ["TI"],  [0.0052461]], ["FCC_A1", ["TI"], [null]]],
+        [["FCC_A1", ["TI"],  [0.0052461]], ["BCC_A2", ["TI"], [null]]],
+
+        [["BCC_A2", ["TI"],  [0.0058285]], ["FCC_A1", ["TI"], [null]]],
+        [["BCC_A2", ["TI"],  [0.0058285]], ["FCC_A1", ["TI"], [null]]],
+
+        [["BCC_A2", ["TI"],  [0.0083900]], ["FCC_A1", ["TI"], [null]]],
+        [["BCC_A2", ["TI"],  [0.0083900]], ["FCC_A1", ["TI"], [null]]]
+
+ ],
+    "reference": "Roe1952gamma",
+    "comment": "From Table 1. Dilatometry measurements. Converted from weight percent."
+}
