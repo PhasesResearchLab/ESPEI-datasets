@@ -10,9 +10,9 @@
 				     [[0.25, 0.75], 1]
 				    ],
 	  "sublattice_configurations": [
-                                    [["CU", "MG"], "VA"],
-					                [["CU", "MG"], "VA"],
-					                [["CU", "MG"], "VA"]
+        [["CU", "MG"], "VA"],
+				[["CU", "MG"], "VA"],
+				[["CU", "MG"], "VA"]
 				                   ]
   },
   "conditions": {
@@ -20,7 +20,7 @@
 	  "T": 298.15
   },
   "output": "HM_MIX",
-  "values":   [[[1580, 8070, 6980]]],
-  "reference": "",
-  "comment": "unknown reference previously Shi07"
+  "values":   [[[1620, 8120, 7030]]],
+  "reference": "shin2007thesis",
+  "comment": "Constrained SQS digitized from figure 5.4"
 }

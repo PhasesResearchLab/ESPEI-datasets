@@ -1,5 +1,5 @@
 {
-  "components": ["CU", "MG", "VA"],
+  "components": ["CU", "MG"],
   "phases": ["LAVES_C15"],
   "solver": {
     "mode": "manual",
