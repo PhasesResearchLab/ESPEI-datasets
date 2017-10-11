@@ -25,11 +25,11 @@
   },
   "output": "HM_MIX",
     "values":   [[[
-        -0.497,
-        -3.431,
-        -3.638,
-        -1.348,
-        0.536
+        -497,
+        -3431,
+        -3638,
+        -1348,
+        536
     ]]],
   "reference": "Gao2014first",
   "comment": "Fully relaxed DFT calculations from table 5"
