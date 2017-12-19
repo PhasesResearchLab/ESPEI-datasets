@@ -36,7 +36,7 @@
                [["LAVES_C15", ["MG"], [0.33691]], ["CUMG2", ["MG"], [null]]],
                [["LAVES_C15", ["MG"], [0.33716]], ["CUMG2", ["MG"], [null]]]
               ],
-    "reference": "Jones1931",
+    "reference": "Bagnoud1978",
     "comment": "solubility lines from Fig 3"
 }
 
