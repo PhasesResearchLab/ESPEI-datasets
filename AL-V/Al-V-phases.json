@@ -1,0 +1,42 @@
+{
+    "components": ["AL", "V", "VA"],
+    "refdata": "SGTE91",
+    "phases": {
+	      "LIQUID" : {
+			      "sublattice_model": [["AL", "V"]],
+			      "sublattice_site_ratios": [1]
+	      },
+	      "BCC_A2" : {
+			      "sublattice_model": [["AL", "V"]],
+			      "sublattice_site_ratios": [1]
+	      },
+	      "HCP_A3" : {
+			      "sublattice_model": [["AL", "V"]],
+			      "sublattice_site_ratios": [1]
+	      },
+	      "FCC_A1" : {
+			      "sublattice_model": [["AL", "V"]],
+			      "sublattice_site_ratios": [1]
+	      },
+          "AL8V5": {
+		        "sublattice_model": [["AL"], ["AL", "V"], ["AL", "V"], ["V"]],
+			      "sublattice_site_ratios": [6, 2, 3, 2]
+	      },
+	      "AL3V": {
+		        "sublattice_model": [["AL"], ["V"]],
+			      "sublattice_site_ratios": [3, 1]
+	      },
+	      "AL23V4": {
+			      "sublattice_site_ratios": [23, 4],
+			      "sublattice_model": [["AL"], ["V"]]
+	      },
+	      "AL45V7": {
+			            "sublattice_site_ratios": [45, 7],
+			      "sublattice_model": [["AL"], ["V"]]
+	      },
+	      "AL21V2": {
+			            "sublattice_site_ratios": [21, 2],
+			            "sublattice_model": [["AL"], ["V"]]
+	      }
+    }
+}

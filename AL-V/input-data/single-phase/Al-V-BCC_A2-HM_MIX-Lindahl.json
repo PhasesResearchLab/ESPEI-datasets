@@ -1,0 +1,36 @@
+{
+    "components": ["AL", "V"],
+    "phases": ["BCC_A2"],
+    "solver": {
+	      "mode": "manual",
+	      "sublattice_site_ratios": [1],
+	      "sublattice_occupancies": [
+				    [[0.96, 0.04]],
+				    [[0.75, 0.25]],
+				    [[0.50, 0.50]],
+				    [[0.25, 0.75]],
+				    [[0.04, 0.96]]
+        ],
+	      "sublattice_configurations": [
+            [["AL", "V"]],
+            [["AL", "V"]],
+            [["AL", "V"]],
+            [["AL", "V"]],
+            [["AL", "V"]]
+        ]
+    },
+    "conditions": {
+	      "P": 101325,
+	      "T": 298.15
+    },
+    "output": "HM_MIX",
+    "values":   [[[
+        -1010,
+        -10300,
+        -16000,
+        -12800,
+        -4440
+    ]]],
+    "reference": "Lindahl2015",
+    "comment": "DFT from Table 6, reference state shifted to the same phase"
+}

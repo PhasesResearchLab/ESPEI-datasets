@@ -1,0 +1,19 @@
+{
+    "components": ["AL", "V"],
+    "phases": ["AL3V"],
+    "solver": {
+	      "mode": "manual",
+	      "sublattice_site_ratios": [3, 1],
+	      "sublattice_configurations": [["AL", "V"]]
+    },
+    "conditions": {
+	      "P": 101325,
+	      "T": 298.15
+    },
+    "output": "HM_FORM",
+    "values":   [[[
+        -26910
+    ]]],
+    "reference": "Lindahl2015",
+    "comment": "DFT from Table 1, reported as J, but values are really kJ"
+}

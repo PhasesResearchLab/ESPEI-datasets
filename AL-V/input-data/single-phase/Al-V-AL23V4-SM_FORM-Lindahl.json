@@ -1,0 +1,19 @@
+{
+    "components": ["AL", "V"],
+    "phases": ["AL23V4"],
+    "solver": {
+	      "mode": "manual",
+	      "sublattice_site_ratios": [23, 4],
+	      "sublattice_configurations": [["AL", "V"]]
+    },
+    "conditions": {
+	      "P": 101325,
+	      "T": 298.15
+    },
+    "output": "SM_FORM",
+    "values":   [[[
+        -8.315
+    ]]],
+    "reference": "Lindahl2015",
+    "comment": "DFT from Table 1"
+}
