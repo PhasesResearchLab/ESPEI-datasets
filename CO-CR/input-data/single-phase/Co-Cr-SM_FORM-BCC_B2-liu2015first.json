@@ -1,0 +1,21 @@
+{
+    "components": ["CO", "CR"],
+    "phases": ["BCC_B2"],
+    "solver": {
+	"mode": "manual",
+	"sublattice_site_ratios": [1, 1],
+	"sublattice_configurations": [
+	    ["CO", "CR"]
+	]
+    },
+    "conditions": {
+	"P": 101325,
+	"T": 298.15
+    },
+    "output": "SM_FORM",
+    "values":   [[[
+	1.03
+    ]]],
+    "reference": "liu2015first",
+    "comment": "Table 3. Took the SER column."
+}

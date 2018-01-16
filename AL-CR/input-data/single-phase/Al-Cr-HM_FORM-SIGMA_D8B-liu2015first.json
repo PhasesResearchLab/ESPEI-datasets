@@ -1,0 +1,22 @@
+{
+    "components": ["AL", "CR"],
+    "phases": ["SIGMA_D8B"],
+    "solver": {
+	"mode": "manual",
+	"sublattice_site_ratios": [8, 18, 4],
+	"sublattice_configurations": [
+	    ["AL", "AL", "CR"],
+	    ["AL", "CR", "CR"]
+	]
+    },
+    "conditions": {
+	"P": 101325,
+	"T": 298.15
+    },
+    "output": "HM_FORM",
+    "values":   [[[
+	11240, 1840
+    ]]],
+    "reference": "liu2015first",
+    "comment": "Table 3. Took the SER column after converting to J."
+}

@@ -1,0 +1,21 @@
+{
+    "components": ["AL", "CO"],
+    "phases": ["BCC_B2"],
+    "solver": {
+	"mode": "manual",
+	"sublattice_site_ratios": [1, 1],
+	"sublattice_configurations": [
+	    ["AL", "CO"]
+	]
+    },
+    "conditions": {
+	"P": 101325,
+	"T": 298.15
+    },
+    "output": "HM_FORM",
+    "values":   [[[
+	-57670
+    ]]],
+    "reference": "liu2015first",
+    "comment": "Took the SER column after converting to J."
+}

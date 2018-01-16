@@ -1,0 +1,30 @@
+{
+    "components": ["AL", "CO", "CR"],
+    "phases": ["BCC_A2"],
+    "solver": {
+	"mode": "manual",
+	"sublattice_site_ratios": [1],
+	"sublattice_occupancies": [
+	    [[0.5, 0.25, 0.25]],
+	    [[0.25, 0.5, 0.25]],
+	    [[0.25, 0.25, 0.5]],
+	    [[0.333, 0.333, 0.334]]		
+	],
+	"sublattice_configurations": [
+	    [["AL", "CO", "CR"]],
+	    [["AL", "CO", "CR"]],
+	    [["AL", "CO", "CR"]],
+	    [["AL", "CO", "CR"]]		
+	]
+    },
+    "conditions": {
+	"P": 101325,
+	"T": 298.15
+    },
+    "output": "HM_MIX",
+    "values":   [[[
+	-9360, -6860, -1170, -7860
+    ]]],
+    "reference": "liu2015first",
+    "comment": "Ternary disordered BCC from Table 4"
+}

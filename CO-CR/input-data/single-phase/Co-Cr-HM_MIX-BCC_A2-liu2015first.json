@@ -1,0 +1,28 @@
+{
+    "components": ["CO", "CR"],
+    "phases": ["BCC_A2"],
+    "solver": {
+	"mode": "manual",
+	"sublattice_site_ratios": [1],
+	"sublattice_occupancies": [
+	    [[0.75, 0.25]],
+	    [[0.5, 0.5]],
+	    [[0.25, 0.75]]
+	],
+	"sublattice_configurations": [
+	    [["CO", "CR"]],
+	    [["CO", "CR"]],
+	    [["CO", "CR"]]		
+	]
+    },
+    "conditions": {
+	"P": 101325,
+	"T": 298.15
+    },
+    "output": "HM_MIX",
+    "values":   [[[
+	9990, 11980, 9590
+    ]]],
+    "reference": "liu2015first",
+    "comment": "Disordered BCC from Table 4"
+}
