@@ -6,7 +6,7 @@
 	"sublattice_site_ratios": [8, 18, 4],
 	"sublattice_configurations": [
 	    ["CO", "AL", "CR"],
-	    ["AL", "CO", "CR"],
+	    ["AL", "CO", "CR"]
 	]
     },
     "conditions": {
