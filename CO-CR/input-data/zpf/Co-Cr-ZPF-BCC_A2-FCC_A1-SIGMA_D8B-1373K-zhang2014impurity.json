@@ -1,0 +1,67 @@
+{
+    "components": [
+        "CO",
+        "CR"
+    ],
+    "phases": [
+        "BCC_A2",
+        "FCC_A1",
+        "SIGMA_D8B"
+    ],
+    "broadcast_conditions": false,
+    "conditions": {
+        "T": [
+            1373.0,
+            1373.0
+        ],
+        "P": [
+            101325.0,
+            101325.0
+        ]
+    },
+    "output": "ZPF",
+    "values": [
+        [
+            [
+                "FCC_A1",
+                [
+                    "CO"
+                ],
+                [
+                    0.618
+                ]
+            ],
+            [
+                "SIGMA_D8B",
+                [
+                    "CO"
+                ],
+                [
+                    0.459
+                ]
+            ]
+        ],
+        [
+            [
+                "SIGMA_D8B",
+                [
+                    "CO"
+                ],
+                [
+                    0.342
+                ]
+            ],
+            [
+                "BCC_A2",
+                [
+                    "CO"
+                ],
+                [
+                    0.207
+                ]
+            ]
+        ]
+    ],
+    "reference": "zhang2014impurity",
+    "comment": "Digized from Figure 1b"
+}

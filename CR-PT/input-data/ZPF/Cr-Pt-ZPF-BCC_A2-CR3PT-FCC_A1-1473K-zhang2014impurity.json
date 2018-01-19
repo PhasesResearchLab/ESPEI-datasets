@@ -1,0 +1,67 @@
+{
+    "components": [
+        "CR",
+        "PT"
+    ],
+    "phases": [
+        "BCC_A2",
+        "CR3PT",
+        "FCC_A1"
+    ],
+    "broadcast_conditions": false,
+    "conditions": {
+        "T": [
+            1473.0,
+            1473.0
+        ],
+        "P": [
+            101325.0,
+            101325.0
+        ]
+    },
+    "output": "ZPF",
+    "values": [
+        [
+            [
+                "BCC_A2",
+                [
+                    "PT"
+                ],
+                [
+                    0.03
+                ]
+            ],
+            [
+                "CR3PT",
+                [
+                    "PT"
+                ],
+                [
+                    0.181
+                ]
+            ]
+        ],
+        [
+            [
+                "CR3PT",
+                [
+                    "PT"
+                ],
+                [
+                    0.228
+                ]
+            ],
+            [
+                "FCC_A1",
+                [
+                    "PT"
+                ],
+                [
+                    0.325
+                ]
+            ]
+        ]
+    ],
+    "reference": "zhang2014impurity",
+    "comment": "Digitized diffusion data from Figure 5b"
+}
