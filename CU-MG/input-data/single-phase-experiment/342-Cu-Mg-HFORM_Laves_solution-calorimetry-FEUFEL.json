@@ -3,7 +3,7 @@
   "phases": ["LAVES_C15"],
   "solver": {
     "mode": "manual",
-    "sublattice_site_ratios": [1, 2],
+    "sublattice_site_ratios": [2, 1],
     "sublattice_configurations": [["CU", "MG"]]
   },
   "conditions": {
