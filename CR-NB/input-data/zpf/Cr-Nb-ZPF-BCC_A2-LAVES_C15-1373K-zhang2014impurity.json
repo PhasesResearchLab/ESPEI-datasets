@@ -14,52 +14,13 @@
             1373.0
         ],
         "P": [
-            101325.0,
             101325.0
         ]
     },
     "output": "ZPF",
     "values": [
-        [
-            [
-                "BCC_A2",
-                [
-                    "NB"
-                ],
-                [
-                    0.9208
-                ]
-            ],
-            [
-                "LAVES_C15",
-                [
-                    "NB"
-                ],
-                [
-                    0.3555
-                ]
-            ]
-        ],
-        [
-            [
-                "BCC_A2",
-                [
-                    "NB"
-                ],
-                [
-                    0.0128
-                ]
-            ],
-            [
-                "LAVES_C15",
-                [
-                    "NB"
-                ],
-                [
-                    0.3126
-                ]
-            ]
-        ]
+        [["BCC_A2", ["NB"], [0.9208]], ["LAVES_C15", ["NB"], [0.3555]]],
+        [["BCC_A2", ["NB"], [0.0128]], ["LAVES_C15", ["NB"], [0.3126]]]
     ],
     "reference": "zhang2014impurity",
     "comment": "Digitized diffusion data from Figure 8b"

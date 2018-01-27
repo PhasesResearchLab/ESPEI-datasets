@@ -18,26 +18,7 @@
     },
     "output": "ZPF",
     "values": [
-        [
-            [
-                "FCC_A1",
-                [
-                    "NI"
-                ],
-                [
-                    0.508
-                ]
-            ],
-            [
-                "BCC_A2",
-                [
-                    "NI"
-                ],
-                [
-                    0.282
-                ]
-            ]
-        ]
+        [["FCC_A1", ["NI"], [0.508]], ["BCC_A2", ["NI"], [0.282]]]
     ],
     "reference": "zhang2014impurity",
     "comment": "Digitized diffusion data from Figure 4b"
