@@ -1,0 +1,18 @@
+{
+  "components": ["TI", "V"],
+  "phases": ["HCP_A3", "BCC_A2"],
+  "conditions": {
+          "P": 101325,
+          "T": [673, 773, 875, 974]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":   [
+               [["HCP_A3", ["V"], [0.0251]], ["HCP_A3", ["V"],  [null]]],
+               [["HCP_A3", ["V"], [0.0371]], ["BCC_A2", ["V"],  [null]]],
+               [["HCP_A3", ["V"], [0.0376]], ["HCP_A3", ["V"],  [null]]],
+               [["HCP_A3", ["V"], [0.0334]], ["HCP_A3", ["V"], [null]]]
+              ],
+  "reference": "molokanov1977solubility",
+  "comment": "Digitized by Olivia Higgins"
+}

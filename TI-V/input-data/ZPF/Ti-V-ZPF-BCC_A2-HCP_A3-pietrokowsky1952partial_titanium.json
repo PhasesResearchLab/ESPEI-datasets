@@ -1,0 +1,20 @@
+{
+  "components": ["TI", "V"],
+  "phases": ["HCP_A3", "BCC_A2"],
+  "conditions": {
+          "P": 101325,
+          "T": [920, 924, 977, 1034, 1035, 1089]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":   [
+               [["BCC_A2", ["V"], [0.1800]], ["HCP_A3", ["V"],  [null]]],
+               [["HCP_A3", ["V"], [0.0135]], ["BCC_A2", ["V"],  [null]]],
+               [["BCC_A2", ["V"], [0.1302]], ["HCP_A3", ["V"],  [null]]],
+               [["HCP_A3", ["V"], [0.1073]], ["BCC_A2", ["V"],  [null]]],
+               [["HCP_A3", ["V"], [0.0198]], ["BCC_A2", ["V"],  [null]]],
+               [["BCC_A2", ["V"], [0.0706]], ["HCP_A3", ["V"], [null]]]
+              ],
+  "reference": "pietrokowsky1952partial_titanium",
+  "comment": "Digitized by Olivia Higgins"
+}

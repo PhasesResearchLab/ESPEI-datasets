@@ -1,0 +1,25 @@
+{
+  "components": ["TI", "V"],
+  "phases": ["LIQUID", "BCC_A2"],
+  "conditions": {
+          "P": 101325,
+          "T": [1877, 1882, 1882, 1888, 1888, 1905, 1908, 1921, 1944, 2057]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":   [
+               [["BCC_A2", ["V"], [0.350]], ["LIQUID", ["V"],  [null]]],
+               [["BCC_A2", ["V"], [0.397]], ["LIQUID", ["V"],  [null]]],
+               [["BCC_A2", ["V"], [0.332]], ["LIQUID", ["V"],  [null]]],
+               [["BCC_A2", ["V"], [0.298]], ["LIQUID", ["V"],  [null]]],
+               [["BCC_A2", ["V"], [0.476]], ["LIQUID", ["V"],  [null]]],
+               [["BCC_A2", ["V"], [0.198]], ["LIQUID", ["V"],  [null]]],
+               [["BCC_A2", ["V"], [0.549]], ["LIQUID", ["V"],  [null]]],
+               [["BCC_A2", ["V"], [0.099]], ["LIQUID", ["V"],  [null]]],
+               [["BCC_A2", ["V"], [0.697]], ["LIQUID", ["V"],  [null]]],
+               [["BCC_A2", ["V"], [0.846]], ["LIQUID", ["V"],  [null]]]
+             ],
+  "reference": "rudy1969compendium",
+  "comment": "Digitized by Olivia Higgins from scan of original book"
+}
+

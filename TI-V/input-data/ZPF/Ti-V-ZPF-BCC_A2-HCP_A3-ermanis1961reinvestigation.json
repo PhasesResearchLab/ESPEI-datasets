@@ -1,0 +1,21 @@
+{
+  "components": ["TI", "V"],
+  "phases": ["HCP_A3", "BCC_A2"],
+  "conditions": {
+	  "P": 101325,
+	  "T": [824, 875, 924, 1024, 1076]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":   [
+               [["BCC_A2", ["V"], [0.317]], ["HCP_A3", ["V"],  [null]]],
+               [["BCC_A2", ["V"], [0.239]], ["HCP_A3", ["V"],  [null]]],
+               [["BCC_A2", ["V"], [0.182]], ["HCP_A3", ["V"],  [null]]],
+               [["BCC_A2", ["V"], [0.125]], ["HCP_A3", ["V"],  [null]]],
+               [["BCC_A2", ["V"], [0.105]], ["HCP_A3", ["V"],  [null]]],
+               [["BCC_A2", ["V"], [0.052]], ["HCP_A3", ["V"], [null]]]
+              ],
+  "reference": "ermanis1961reinvestigation",
+  "comment": "Digitized by Olivia Higgins"
+}
+

@@ -1,0 +1,17 @@
+{
+  "components": ["TI", "V"],
+  "phases": ["HCP_A3", "BCC_A2"],
+  "conditions": {
+          "P": 101325,
+          "T": [1061, 1116, 1144]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":   [
+               [["HCP_A3", ["V"], [0.0158]], ["BCC_A2", ["V"],  [null]]],
+               [["HCP_A3", ["V"], [0.0157]], ["BCC_A2", ["V"],  [null]]],
+               [["BCC_A2", ["V"], [0.0161]], ["HCP_A3", ["V"], [null]]]
+              ],
+  "reference": "craighead1950titanium_binary",
+  "comment": "Digitized by Olivia Higgins"
+}
