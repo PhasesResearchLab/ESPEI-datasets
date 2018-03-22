@@ -3,7 +3,7 @@
   "phases": ["HCP_A3", "BCC_A2"],
   "conditions": {
 	  "P": 101325,
-	  "T": [824, 875, 924, 1024, 1076]
+	  "T": [824, 875, 924, 974, 1024, 1076]
   },
   "broadcast_conditions": false,
   "output": "ZPF",
