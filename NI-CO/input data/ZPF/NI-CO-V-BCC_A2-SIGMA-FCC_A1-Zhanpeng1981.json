@@ -1,0 +1,35 @@
+{
+"components":["NI","CO","V"],
+"phases":["BCC_A2","SIGMA","FCC_A1"],
+"conditions":{
+"P":101325,
+	"T":
+	[1100,1100,1100,1100,1100,1100,1100,1100,1100,1100]
+},
+"broadcast_conditions":false,
+"output":"ZPF",
+"values":[
+[["BCC_A2",["NI","CO"],[0.046,0.144]],["SIGMA",["NI","CO"],[0.085,0.213]]],
+[["BCC_A2",["NI","CO"],[0.065,0.125]],["SIGMA",["NI","CO"],[0.12,0.175]]],
+[["BCC_A2",["NI","CO"],[0.125,0.047]],["SIGMA",["NI","CO"],[0.22,0.065]]],
+[["BCC_A2",["NI","CO"],[0.16,0.0]],["SIGMA",["NI","CO"],[0.28,0.0]]],
+[["FCC_A1",["NI","CO"],[0.59,0.0]],["SIGMA",["NI","CO"],[0.47,0.0]]],
+[["FCC_A1",["NI","CO"],[0.475,0.128]],["SIGMA",["NI","CO"],[0.358,0.137]]],
+[["FCC_A1",["NI","CO"],[0.412,0.198]],["SIGMA",["NI","CO"],[0.306,0.203]]],
+[["FCC_A1",["NI","CO"],[0.319,0.309]],["SIGMA",["NI","CO"],[0.222,0.318]]],
+[["FCC_A1",["NI","CO"],[0.22,0.426]],["SIGMA",["NI","CO"],[0.155,0.408]]],
+[["FCC_A1",["NI","CO"],[0.171,0.484]],["SIGMA",["NI","CO"],[0.139,0.427]]]
+],
+
+"reference":"Zhanpeng1981sigmaphases_ternary",
+"comment":"From Table. 7 converted all data to atomic%"
+}
+
+
+
+
+
+
+
+
+
