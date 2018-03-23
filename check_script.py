@@ -94,13 +94,13 @@ if __name__ == '__main__':
         print('Successfully checked {} datasets for errors'.format(checked_files))
         # We do this here because we don't want to generate any commits for moved files if there are errors. Linted files should be the last step.
         print('Checking if files need to be moved...')
+        n_moved_files = 0
         for dataset, d in dataset_filenames_and_objects:
             # move the successfully checked files to their nice renamed state
             suggested_filename = suggest_filename(d, upper_case_elements=True)
             # remove the extra path parts and the extension
             filename_no_ext = os.path.splitext(os.path.basename(dataset))[0]
             # check that they're the same, we can accept arbitrary differentiating endings
-            n_moved_files = 0
             if not filename_no_ext.startswith(suggested_filename):
                 # try to move the file to the proper name
                 new_path = os.path.join(os.path.dirname(dataset), suggested_filename)
