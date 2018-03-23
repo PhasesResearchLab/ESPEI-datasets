@@ -69,6 +69,7 @@ if __name__ == '__main__':
 
     checked_files = 0
     errors = []
+    dataset_filenames_and_objects = []
     for path in args.paths:
         dataset_filenames = sorted(recursive_glob(path, '*.json'))
         for dataset in dataset_filenames:
@@ -82,6 +83,7 @@ if __name__ == '__main__':
             except (ValueError, DatasetError) as e:
                 errors.append(e)
             finally:
+                dataset_filenames_and_objects.append((dataset, d))
                 checked_files += 1
 
     if len(errors) > 0:
@@ -91,8 +93,7 @@ if __name__ == '__main__':
         print('Successfully checked {} datasets for errors'.format(checked_files))
         # We do this here because we don't want to generate any commits for moved files if there are errors. Linted files should be the last step.
         print('Checking if files need to be moved...')
-        for dataset in dataset_filenames:
-            d = load_datasets([dataset])
+        for dataset, d in dataset_filenames_and_objects:
             # move the successfully checked files to their nice renamed state
             suggested_filename = suggest_filename(d, upper_case_elements=True)
             # remove the extra path parts and the extension
@@ -108,9 +109,10 @@ if __name__ == '__main__':
                 while not _move_no_overwrite(dataset, new_path + unique_ext):
                     unique_ext = '-{}{}'.format(i, ext)
                     i += 1
-                print('Moved {} to {}'.format(dataset, new_path + unique_ext))
+                if args.verbose:
+                    print('Moved {} to {}'.format(dataset, new_path + unique_ext))
                 n_moved_files += 1
-        if n_moved_files:
+        if n_moved_files > 0:
             print('Moved {} files.'.format(n_moved_files))
         else:
             print('No files to be moved.')
