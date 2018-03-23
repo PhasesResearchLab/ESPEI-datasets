@@ -81,23 +81,6 @@ if __name__ == '__main__':
                 pass
             except (ValueError, DatasetError) as e:
                 errors.append(e)
-            else:
-                # move the successfully checked files to their nice renamed state
-                suggested_filename = suggest_filename(d, upper_case_elements=True)
-                # remove the extra path parts and the extension
-                filename_no_ext = os.path.splitext(os.path.basename(dataset))[0]
-                # check that they're the same, we can accept arbitrary differentiating endings
-                if not filename_no_ext.startswith(suggested_filename):
-                    # try to move the file to the proper name
-                    new_path = os.path.join(os.path.dirname(dataset), suggested_filename)
-                    print(dataset)
-                    print(new_path)
-                    ext = '.json'
-                    unique_ext = '' + ext  # some unique string to differentiate the filename from others.
-                    i = 0
-                    while not _move_no_overwrite(dataset, new_path + unique_ext):
-                        unique_ext = '-{}{}'.format(i, ext)
-                        i += 1
             finally:
                 checked_files += 1
 
@@ -105,5 +88,29 @@ if __name__ == '__main__':
         print(*errors, sep='\n')
         exit(1)
     else:
-        print('Successfully checked {} files'.format(checked_files))
+        print('Successfully checked {} datasets for errors'.format(checked_files))
+        # We do this here because we don't want to generate any commits for moved files if there are errors. Linted files should be the last step.
+        print('Checking if files need to be moved...')
+        for dataset in dataset_filenames:
+            # move the successfully checked files to their nice renamed state
+            suggested_filename = suggest_filename(d, upper_case_elements=True)
+            # remove the extra path parts and the extension
+            filename_no_ext = os.path.splitext(os.path.basename(dataset))[0]
+            # check that they're the same, we can accept arbitrary differentiating endings
+            n_moved_files = 0
+            if not filename_no_ext.startswith(suggested_filename):
+                # try to move the file to the proper name
+                new_path = os.path.join(os.path.dirname(dataset), suggested_filename)
+                ext = '.json'
+                unique_ext = '' + ext  # some unique string to differentiate the filename from others.
+                i = 0
+                while not _move_no_overwrite(dataset, new_path + unique_ext):
+                    unique_ext = '-{}{}'.format(i, ext)
+                    i += 1
+                print('Moved {} to {}'.format(dataset, new_path + unique_ext))
+                n_moved_files += 1
+        if n_moved_files:
+            print('Moved {} files.'.format(n_moved_files))
+        else:
+            print('No files to be moved.')
         exit(0)
