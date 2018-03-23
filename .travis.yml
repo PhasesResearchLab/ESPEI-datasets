@@ -1,0 +1,24 @@
+language: python
+python:
+  - "3.6"
+install:
+  - sudo apt-get update
+  # The following copied from conda documentation.
+  # This is done conditionally because it saves some downloading
+  # if the version is the same.
+  - wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
+  - bash miniconda.sh -b -p $HOME/miniconda
+  - export PATH="$HOME/miniconda/bin:$PATH"
+  - conda config --set always_yes yes --set changeps1 no
+  - conda update -q conda
+  # Useful for debugging any issues with conda
+  - conda info -a
+  - conda create -q -n espei-env python=$TRAVIS_PYTHON_VERSION
+  - source activate espei-env
+  - conda install -c conda-forge 'espei'
+before_script:
+  - source activate espei-env
+script:
+  - python ./ci/dataset_linter.py --verbose
+notifications:
+  email: False
