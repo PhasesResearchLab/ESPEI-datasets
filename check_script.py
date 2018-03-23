@@ -92,6 +92,7 @@ if __name__ == '__main__':
         # We do this here because we don't want to generate any commits for moved files if there are errors. Linted files should be the last step.
         print('Checking if files need to be moved...')
         for dataset in dataset_filenames:
+            d = load_datasets([dataset])
             # move the successfully checked files to their nice renamed state
             suggested_filename = suggest_filename(d, upper_case_elements=True)
             # remove the extra path parts and the extension
