@@ -82,8 +82,9 @@ if __name__ == '__main__':
                 pass
             except (ValueError, DatasetError) as e:
                 errors.append(e)
-            finally:
+            else:
                 dataset_filenames_and_objects.append((dataset, d))
+            finally:
                 checked_files += 1
 
     if len(errors) > 0:
