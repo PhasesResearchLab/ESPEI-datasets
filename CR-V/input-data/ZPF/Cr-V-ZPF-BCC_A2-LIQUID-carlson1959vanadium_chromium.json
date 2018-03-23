@@ -1,0 +1,28 @@
+{
+  "components": ["CR", "V"],
+  "phases": ["BCC_A2", "LIQUID"],
+  "conditions": {
+          "P": 101325,
+          "T": [2124.7, 2116.0, 2105.2, 2093.8, 2084.0, 2063.4, 2045.0, 2033.0, 2028.0, 2025.5, 2022.2, 2022.5, 2026.1, 2045.0]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":   [
+               [["BCC_A2", ["CR"], [0.0522]], ["LIQUID", ["CR"],  [null]]],
+               [["BCC_A2", ["CR"], [0.1034]], ["LIQUID", ["CR"],  [null]]],
+               [["BCC_A2", ["CR"], [0.2007]], ["LIQUID", ["CR"],  [null]]],
+               [["BCC_A2", ["CR"], [0.2007]], ["LIQUID", ["CR"],  [null]]],
+               [["BCC_A2", ["CR"], [0.2973]], ["LIQUID", ["CR"],  [null]]],
+               [["BCC_A2", ["CR"], [0.3887]], ["LIQUID", ["CR"],  [null]]],
+               [["BCC_A2", ["CR"], [0.4927]], ["LIQUID", ["CR"],  [null]]],
+               [["BCC_A2", ["CR"], [0.6038]], ["LIQUID", ["CR"],  [null]]],
+               [["BCC_A2", ["CR"], [0.5971]], ["LIQUID", ["CR"],  [null]]],
+               [["BCC_A2", ["CR"], [0.6450]], ["LIQUID", ["CR"],  [null]]],
+               [["BCC_A2", ["CR"], [0.6952]], ["LIQUID", ["CR"],  [null]]],
+               [["BCC_A2", ["CR"], [0.7467]], ["LIQUID", ["CR"],  [null]]],
+               [["BCC_A2", ["CR"], [0.7972]], ["LIQUID", ["CR"],  [null]]],
+               [["BCC_A2", ["CR"], [0.8984]], ["LIQUID", ["CR"],  [null]]]
+              ],
+  "reference": "carlson1959vanadium_chromium",
+  "comment": "Digitized from Figure 1"
+}

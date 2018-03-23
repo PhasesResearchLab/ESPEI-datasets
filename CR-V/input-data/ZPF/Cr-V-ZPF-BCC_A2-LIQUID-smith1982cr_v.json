@@ -1,0 +1,19 @@
+{
+  "components": ["CR", "V"],
+  "phases": ["BCC_A2", "LIQUID"],
+  "conditions": {
+          "P": 101325,
+          "T": [2053, 2043, 2048, 2043, 2038]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":   [
+               [["BCC_A2", ["CR"], [0.599]], ["LIQUID", ["CR"],  [null]]],
+               [["BCC_A2", ["CR"], [0.699]], ["LIQUID", ["CR"],  [null]]],
+               [["BCC_A2", ["CR"], [0.699]], ["LIQUID", ["CR"],  [null]]],
+               [["BCC_A2", ["CR"], [0.800]], ["LIQUID", ["CR"],  [null]]],
+               [["BCC_A2", ["CR"], [0.800]], ["LIQUID", ["CR"],  [null]]]
+              ],
+  "reference": "smith1982cr_v",
+  "comment": "Digitized from Figure 2"
+}
