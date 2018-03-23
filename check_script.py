@@ -5,7 +5,7 @@ Return exit code 1 if there was 1 or more errors.
 """
 
 import argparse
-import os
+import os, shutil
 from espei.datasets import recursive_glob, load_datasets, DatasetError
 
 class DatasetFileNameError(Exception):
@@ -54,6 +54,13 @@ def suggest_filename(dataset, include_extension=False, upper_case_elements=True)
     return '-'.join([elements, output, phases, refkey])
 
 
+def _move_no_overwrite(src, dst):
+    """Move a file if the destination does not exist. If successful return false."""
+    if not os.path.exists(dst):
+        shutil.move(src, dst)
+        return True
+    return False
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Check datasets at the chosen paths.')
     parser.add_argument('paths', metavar='PATH', type=str, nargs='*', default=['.'], help='Path(s) to search')
@@ -74,20 +81,25 @@ if __name__ == '__main__':
                 pass
             except (ValueError, DatasetError) as e:
                 errors.append(e)
+            else:
+                # move the successfully checked files to their nice renamed state
+                suggested_filename = suggest_filename(d, upper_case_elements=True)
+                # remove the extra path parts and the extension
+                filename_no_ext = os.path.splitext(os.path.basename(dataset))[0]
+                # check that they're the same, we can accept arbitrary differentiating endings
+                if not filename_no_ext.startswith(suggested_filename):
+                    # try to move the file to the proper name
+                    new_path = os.path.join(os.path.dirname(dataset), suggested_filename)
+                    print(dataset)
+                    print(new_path)
+                    ext = '.json'
+                    unique_ext = '' + ext  # some unique string to differentiate the filename from others.
+                    i = 0
+                    while not _move_no_overwrite(dataset, new_path + unique_ext):
+                        unique_ext = '-{}{}'.format(i, ext)
+                        i += 1
             finally:
                 checked_files += 1
-
-            try:
-                # lint the filename
-                if d is not None:
-                    suggested_filename = suggest_filename(d, upper_case_elements=False)
-                    # remove the extra path parts and the extension
-                    filename_no_ext = os.path.splitext(os.path.basename(dataset))[0]
-                    # check that they're the same, we can accept arbitrary differentiating endings
-                    if not filename_no_ext.startswith(suggested_filename):
-                        raise DatasetFileNameError('File name for dataset {} does not match the suggested file name of {}.'.format(dataset, suggested_filename))
-            except DatasetFileNameError as e:
-                errors.append(e)
 
     if len(errors) > 0:
         print(*errors, sep='\n')
