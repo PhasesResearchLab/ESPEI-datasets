@@ -15,7 +15,7 @@ install:
   - conda info -a
   - conda create -q -n espei-env python=$TRAVIS_PYTHON_VERSION
   - source activate espei-env
-  - conda install -c conda-forge 'espei'
+  - conda install -c conda-forge 'espei' 'pycalphad>=0.6.1'
 before_script:
   - source activate espei-env
 script:
