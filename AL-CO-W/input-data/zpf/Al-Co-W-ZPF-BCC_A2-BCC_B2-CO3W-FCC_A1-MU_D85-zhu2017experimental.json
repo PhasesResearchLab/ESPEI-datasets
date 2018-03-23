@@ -93,5 +93,5 @@
         [["MU_D85", ["CO", "AL"], [0.501, 0.009000000000000001]], ["BCC_B2", ["CO", "AL"], [0.035, 0.0]]]
     ],
     "reference": "zhu2017experimental",
-    "comment": "From supplemntary table S1"
+    "comment": "From supplemntary table S1 and S2. Note that there are two different pictures of three phase equilibria. The original paper postulates that the Gibbs energies of these phases are very close."
 }
