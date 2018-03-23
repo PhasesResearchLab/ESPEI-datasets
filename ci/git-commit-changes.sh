@@ -5,8 +5,6 @@
 
 echo "Travis branch"
 echo $TRAVIS_BRANCH
-echo "GH_TOKEN"
-echo $GH_TOKEN
 
 # Set up git
 git config --global user.email "travis@travis-ci.org"
@@ -21,4 +19,4 @@ git commit -m "Travis CI ESPEI Dataset Linting"
 
 # upload
 git remote add origin https://${GH_TOKEN}@github.com/phasesresearchlab/espei-datasets.git > /dev/null 2>&1
-#git push --quiet --set-upstream origin $TRAVIS_BRANCH
+#git push --quiet --set-upstream origin $TRAVIS_BRANCH > /dev/null 2>&1
