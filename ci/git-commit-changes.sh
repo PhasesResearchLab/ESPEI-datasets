@@ -15,5 +15,6 @@ git add -A
 git commit -m "LINT: Travis CI automated linting [ci skip]"
 
 # upload
-git remote add origin https://${GH_TOKEN}@github.com/phasesresearchlab/espei-datasets.git > /dev/null 2>&1
-git push --quiet --set-upstream origin $TRAVIS_BRANCH > /dev/null 2>&1
+git remote add origin https://${GH_TOKEN}@github.com/phasesresearchlab/espei-datasets.git
+# git push --quiet --set-upstream origin $TRAVIS_BRANCH
+git push --set-upstream origin $TRAVIS_BRANCH
