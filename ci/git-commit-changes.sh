@@ -7,22 +7,15 @@
 git config --global user.email "travis@travis-ci.org"
 git config --global user.name "Travis CI"
 
+# have to checkout otherwise we'll be detached
 git checkout $TRAVIS_BRANCH
-
-git branch -v
 
 # add all the files and commit
 git add -A
+# we added miniconda and have to remove it
+git reset HEAD miniconda.sh
 git commit -m "LINT: Travis CI automated linting [ci skip]"
 
-git status
-
 # upload
-git remote add origin-travis https://${GH_TOKEN}@github.com/phasesresearchlab/espei-datasets.git
-# git push --quiet --set-upstream origin $TRAVIS_BRANCH
-git push --set-upstream origin-travis $TRAVIS_BRANCH
-
-git status
-
-git log HEAD^^^..HEAD > git-commits.log
-cat git-commits.log
+git remote add origin-travis https://${GH_TOKEN}@github.com/phasesresearchlab/espei-datasets.git > /dev/null 2>&1
+git push --quiet --set-upstream origin-travis $TRAVIS_BRANCH > /dev/null 2>&1
