@@ -1,0 +1,41 @@
+{
+"components":["CR", "TI", "V"],
+"phases":["BCC_A2", "LAVES_C15"],
+"conditions":{
+"P":101325,
+"T":[973.15,973.15,973.15,973.15,973.15,973.15,973.15,973.15,973.15,973.15,973.15,973.15,
+	973.15,973.15,973.15,973.15,973.15,973.15,973.15,973.15,973.15,973.15,973.15,973.15,973.15,973.15
+]
+},
+"values":[
+[["BCC_A2", ["TI", "V"], [0.814, 0.058]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.777, 0.095]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.738, 0.135]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.699, 0.174]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.662, 0.210]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.620, 0.253]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.758, 0.114]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.796, 0.076]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.718, 0.154]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.679, 0.193]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.643, 0.228]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.571, 0.285]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.521, 0.341]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.469, 0.392]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.416, 0.443]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.363, 0.446]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.314, 0.446]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.262, 0.497]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.211, 0.548]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.158, 0.551]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.158, 0.501]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.161, 0.450]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.158, 0.403]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.107, 0.353]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.837, 0.048]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.856, 0.029]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.868, 0.013]], ["LAVES_C15", ["TI", "V"], [null,null]]]
+],
+"reference":"farrar1967_asm_transaction",
+"comment":"converted everything to atomic%"
+}

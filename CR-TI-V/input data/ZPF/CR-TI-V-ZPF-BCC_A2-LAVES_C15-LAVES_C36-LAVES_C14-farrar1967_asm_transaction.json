@@ -1,0 +1,25 @@
+{
+"components":["TI", "CR", "V"],
+"phases":["BCC_A2", "LAVES_C15", "LAVES_C36","LAVES_C14"],
+"conditions":{
+"P":101325,
+"T":[1473.15,1473.15,1473.15,1473.15,1473.15,1473.15,1473.15,1473.15,1473.15,1473.15]
+},
+"broadcast_conditions": false,
+"output":"ZPF",
+"values": [
+[["BCC_A2", ["TI", "V"], [0.521, 0.144]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.574, 0.098]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.477, 0.194]], ["LAVES_C36", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.420, 0.244]], ["LAVES_C36", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.372, 0.295]], ["LAVES_C36", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.316, 0.348]], ["LAVES_C36", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.268, 0.347]], ["LAVES_C36", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.214, 0.347]], ["LAVES_C14", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.166, 0.343]], ["LAVES_C14", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.161, 0.249]], ["LAVES_C14", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.105, 0.251]], ["LAVES_C14", ["TI", "V"], [null,null]]]
+],
+"reference":"farrar1967_asm_transaction",
+"comment":"converted everytihng to atomic%"
+}
