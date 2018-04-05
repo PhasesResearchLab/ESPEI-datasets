@@ -1,0 +1,34 @@
+{
+"components":["TI", "CR"],
+"phases":["BCC_A2", "LAVES_C15", "HCP_A3"],
+"conditions":{
+"P":101325,
+"T":[1073.15,1123.15,1173.15,1223.15,1273.15,1323.15,1373.15,1423.15,1073.15,1123.15,
+	1173.15,1223.15,1273.15,1323.15,1373.15,1433.15,1473.15]
+},
+"broadcast_conditions": false,
+"output":"ZPF",
+"values":[
+[["BCC_A2", ["TI", "CR"], [0.021, 0.008]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.021, 0.007]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.021, 0.008]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.021, 0.009]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.021, 0.008]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.021, 0.007]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.021, 0.007]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.021, 0.009]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+
+[["HCP_A3", ["TI", "CR"], [0.020, 0.027]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["HCP_A3", ["TI", "CR"], [0.020, 0.030]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["HCP_A3", ["TI", "CR"], [0.020, 0.034]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["HCP_A3", ["TI", "CR"], [0.020, 0.038]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["HCP_A3", ["TI", "CR"], [0.020, 0.043]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["HCP_A3", ["TI", "CR"], [0.020, 0.028]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["HCP_A3", ["TI", "CR"], [0.020, 0.032]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["HCP_A3", ["TI", "CR"], [0.020, 0.036]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["HCP_A3", ["TI", "CR"], [0.020, 0.040]], ["LAVES_C15", ["TI", "CR"], [null,null]]]
+],
+"reference":"Mikheyev1962solubility_ofchromium",
+"comment":"converted everything to atomic percent"
+}
+

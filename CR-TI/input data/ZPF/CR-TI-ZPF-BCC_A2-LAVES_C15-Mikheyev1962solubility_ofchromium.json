@@ -1,0 +1,16 @@
+{
+"components":["TI", "CR"],
+"phases":["BCC_A2", "LAVES_C15"],
+"conditions":{
+"P":101325,
+"T":[723.15,928.15]
+},
+"broadcast_conditions": false,
+"output":"ZPF",
+"values":[
+[["HCP_A3", ["TI", "CR"], [0.021, 0.001]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.021, 0.002]], ["LAVES_C15", ["TI", "V"], [null,null]]]
+],
+"reference":"Mikheyev1962solubility_ofchromium",
+"comment":"converted everything to atomic percent"
+}
