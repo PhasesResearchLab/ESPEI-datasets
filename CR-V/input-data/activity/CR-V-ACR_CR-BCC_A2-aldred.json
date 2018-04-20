@@ -1,0 +1,26 @@
+{
+  "components": ["CR", "V", "VA"],
+  "phases": ["BCC_A2"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1, 1],
+    "sublattice_configurations": [[["CR", "V"], "VA"]]
+  },
+  "reference_state": {
+    "phases": ["BCC_A2"],
+    "conditions": {
+      "P": 101325,
+      "T": 1550,
+      "X_CR": 0.0
+    }
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1550,
+    "X_CR": [0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1]
+  },
+  "output": "ACR_CR",
+    "values":   [[[0.898,0.753,0.596,0.451,0.336,0.243,0.172,0.116,0.049]]],
+  "reference": "aldred1964thermodynamic",
+  "comment": "From Table 2"
+}

@@ -1,0 +1,22 @@
+{
+  "components": ["CR", "V"],
+  "phases": ["LIQUID"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1],
+    "sublattice_configurations": [
+      [["CR", "V"]]
+    ],
+    "sublattice_occupancies": [
+      [[0.5, 0.5]]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 298.15
+  },
+  "output": "HM_MIX",
+    "values":   [[[-5000]]],
+  "reference": "estimated",
+  "comment": ""
+}
