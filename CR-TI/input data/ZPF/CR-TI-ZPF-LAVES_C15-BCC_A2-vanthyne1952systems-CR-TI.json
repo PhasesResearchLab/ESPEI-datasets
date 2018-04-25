@@ -1,0 +1,44 @@
+{
+"components":["CR","TI"],
+"phases":["LAVES_C15","BCC_A2"],
+"conditions":{
+"P":101325,
+"T":[1603.15,1573.15,1563.15,1523.15,1523.15,1523.15,1523.15,1513.15,1473.15,
+	1443.15,1433.15,1453.15,1453.15,1423.15,1383.15,1383.15,1383.15,1313.15,
+	1293.15,1293.15,1293.15,1273.15,1193.15,1158.15,1133.15,1073.15,958.15
+]
+},
+"broadcast_conditions":false,
+"output":"ZPF",
+"values":[
+[["BCC_A2", ["TI", "CR"], [0.745, 0.255]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.741, 0.259]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.738, 0.262]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.744, 0.256]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.750, 0.250]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.755, 0.245]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.761, 0.239]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.765, 0.235]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.769, 0.231]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.764, 0.236]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.773, 0.227]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.783, 0.217]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.791, 0.209]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.783, 0.217]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.782, 0.218]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.791, 0.209]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.793, 0.207]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.798, 0.202]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.798, 0.202]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.806, 0.194]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.812, 0.188]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.808, 0.192]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.808, 0.192]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.820, 0.180]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.819, 0.181]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.817, 0.183]], ["LAVES_C15", ["TI", "CR"], [null,null]]],
+[["BCC_A2", ["TI", "CR"], [0.823, 0.177]], ["LAVES_C15", ["TI", "CR"], [null,null]]]
+],
+"reference":"vanthyne1952systems-CR-TI",
+"comment":"converted to atomic percent"
+}
