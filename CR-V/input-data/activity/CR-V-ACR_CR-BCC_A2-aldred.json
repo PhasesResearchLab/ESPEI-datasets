@@ -11,7 +11,7 @@
     "conditions": {
       "P": 101325,
       "T": 1550,
-      "X_CR": 0.0
+      "X_CR": 1.0
     }
   },
   "conditions": {
