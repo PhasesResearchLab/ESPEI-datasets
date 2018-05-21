@@ -44,6 +44,6 @@
   },
   "output": "HM_MIX",
     "values":   [[[-531.6, -861.9, -1046, -1231, -1543, -1702, -1764, -1852, -2167, -2123, -2266, -2612, -2615, -2659, -2740, -2905, -3142, -3039, -3301, -3268, -3469, -3747, -3655, -3794, -3797, -3667, -3687, -3845]]],
-  "reference": "Thiedemann1998mixing",
+  "reference": "thiedemann1998mixing",
   "comment": "Digitzed by all open symbols from Figure 2."
 }

@@ -25,6 +25,6 @@
   },
   "output": "HM_FORM",
     "values":   [[[111.5, -178.9, -827.9, -906.1, -169.8, -192.1, 2521, 2454, 5938, 6508, 6821]]],
-  "reference": "Dench1963adiabatic",
+  "reference": "dench1963adiabatic",
   "comment": "Converted from cal/mol to J/mol from digitzing Figure 9. Points in the two phase region were neglected."
 }

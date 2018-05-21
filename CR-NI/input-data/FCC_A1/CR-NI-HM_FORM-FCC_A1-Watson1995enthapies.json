@@ -18,6 +18,6 @@
   },
   "output": "HM_FORM",
     "values":   [[[-1100, -1510, 2880, 3280]]],
-  "reference": "Watson1995enthapies",
+  "reference": "watson1995enthapies",
   "comment": "From Table 5. Converted from kJ to J. Two phase data neglected."
 }
