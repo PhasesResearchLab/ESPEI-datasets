@@ -1,6 +1,6 @@
 {
   "components": ["CR", "NI"],
-  "phases": ["FCC_A1"],
+  "phases": ["BCC_A2"],
   "solver": {
     "mode": "manual",
     "sublattice_site_ratios": [1],
