@@ -7,14 +7,10 @@
     "sublattice_configurations": [
       [["CR", "V"], "VA"],
       [["CR", "V"], "VA"],
-      [["CR", "V"], "VA"],
-      [["CR", "V"], "VA"],
       [["CR", "V"], "VA"]
     ],
     "sublattice_occupancies": [
       [[0.9375, 0.0625], 1],
-      [[0.75, 0.25], 1],
-      [[0.5, 0.5], 1],
       [[0.25, 0.75], 1],
       [[0.0625, 0.9375], 1]
     ]
@@ -24,7 +20,7 @@
     "T": 298.15
   },
   "output": "HM_FORM",
-    "values":   [[[-955.2, -4546, -4747, -2701, -694.7]]],
+    "values":   [[[-955.2, -2701, -694.7]]],
   "reference": "gao2013phase_stability",
-  "comment": "DFT dilute and SQS. Dilute cell size was 16 atoms. Dilute cells with more than 1 solute atom were not considered. Converted from meV/atom"
+  "comment": "DFT dilute and SQS. Dilute cell size was 16 atoms. Dilute cells with more than 1 solute atom were not considered. Converted from meV/atom. Edited to remove two points that disagree"
 }
