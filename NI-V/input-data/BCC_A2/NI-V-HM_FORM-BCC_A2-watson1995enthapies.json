@@ -1,0 +1,30 @@
+{
+  "components": ["NI", "V"],
+  "phases": ["BCC_A2"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1],
+    "sublattice_configurations": [
+      [["NI", "V"]],
+      [["NI", "V"]],
+      [["NI", "V"]],
+      [["NI", "V"]],
+      [["NI", "V"]]
+    ],
+    "sublattice_occupancies": [
+      [[0.10, 0.90]],
+      [[0.10, 0.90]],
+      [[0.05, 0.95]],
+      [[0.05, 0.95]],
+      [[0.05, 0.95]]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1473
+  },
+  "output": "HM_FORM",
+    "values":   [[[-3220, -2910, -4500, -5060, -3800]]],
+  "reference": "watson1995enthapies",
+  "comment": "From Table 7. Converted from kJ to J. Two phase data neglected."
+}

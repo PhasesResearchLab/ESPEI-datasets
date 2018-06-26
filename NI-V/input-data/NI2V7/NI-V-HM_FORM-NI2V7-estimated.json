@@ -1,0 +1,22 @@
+{
+  "components": ["NI", "V"],
+  "phases": ["NI2V7"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [2, 7],
+    "sublattice_configurations": [
+      ["NI", "V"]
+    ],
+    "sublattice_occupancies": [
+      [1, 1]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 298.15
+  },
+  "output": "HM_FORM",
+    "values":   [[[-9000]]],
+  "reference": "estimated",
+  "comment": "Estimated from assessed value in pan2018reassessment."
+}

@@ -1,0 +1,25 @@
+{
+"components": ["NI", "V"],
+"phases": ["FCC_A1", "NI2V", "NI3V", "SIGMA"],
+"conditions":{
+"P":101325,
+	"T": [1192.26, 1193.10, 1190.45, 1181.32, 1177.81, 1167.72, 1157.65, 1148.68, 1150.62, 1042.42, 1168.55, 1179.74]
+},
+"broadcast_conditions": false,
+"output":"ZPF",
+"values":[[["FCC_A1", ["V"], [0.337]], ["NI2V", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.347]], ["NI2V", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.332]], ["NI2V", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.363]], ["NI2V", ["V"],[null]]],
+[["NI2V", ["V"], [0.341]], ["FCC_A1", ["V"],[null]]],
+[["NI2V", ["V"], [0.341]], ["FCC_A1", ["V"],[null]]],
+[["NI2V", ["V"], [0.341]], ["SIGMA", ["V"],[null]]],
+[["NI2V", ["V"], [0.341]], ["SIGMA", ["V"],[null]]],
+[["NI2V", ["V"], [0.338]], ["NI3V", ["V"],[null]]],
+[["NI2V", ["V"], [0.338]], ["NI3V", ["V"],[null]]],
+[["NI2V", ["V"], [0.338]], ["NI3V", ["V"],[null]]],
+[["NI2V", ["V"], [0.338]], ["NI3V", ["V"],[null]]]
+],
+"reference": "pearson1952constitution",
+"comment":"Digitized from Figure 4, equilibrated alloys."
+}
