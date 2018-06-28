@@ -1,6 +1,6 @@
 {
   "components": ["NI", "V"],
-  "phases": ["FCC_A1"],
+  "phases": ["SIGMA"],
   "solver": {
     "mode": "manual",
     "sublattice_site_ratios": [10, 4, 16],
