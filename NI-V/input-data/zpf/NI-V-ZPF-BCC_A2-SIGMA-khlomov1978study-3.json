@@ -1,0 +1,1 @@
+{"components": ["NI", "V"], "phases": ["BCC_A2", "SIGMA"], "broadcast_conditions": false, "output": "ZPF", "conditions": {"P": 101325, "T": [1250.358170422926]}, "values": [[["SIGMA", ["V"], [0.7458409755835698]], ["BCC_A2", ["V"], [null]]]], "reference": "khlomov1978study", "comment": "khlomov1978study"}
