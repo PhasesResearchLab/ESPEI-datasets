@@ -1,0 +1,18 @@
+{
+  "components":["FE", "V"],
+  "phases":["BCC_A2", "SIGMA"],
+  "conditions":{
+    "P": 101325,
+    "T": [1427, 1429, 1430, 1414]
+  },
+  "broadcast_conditions": false,
+  "output":"ZPF",
+  "values":[
+[["BCC_A2", ["V"], [0.44]], ["SIGMA", ["V"],[null]]],
+[["BCC_A2", ["V"], [0.48]], ["SIGMA", ["V"],[null]]],
+[["BCC_A2", ["V"], [0.50]], ["SIGMA", ["V"],[null]]],
+[["BCC_A2", ["V"], [0.52]], ["SIGMA", ["V"],[null]]]
+  ],
+  "reference": "spencer1973thermodynamic",
+  "comment":"From Table 2. Data with large temperature ranges were neglected. Assumed to be NP(BCC)=1 rather than NP(BCC)=0 boundary"
+}

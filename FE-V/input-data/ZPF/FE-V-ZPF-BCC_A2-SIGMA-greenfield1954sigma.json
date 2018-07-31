@@ -1,0 +1,18 @@
+{
+  "components":["FE", "V"],
+  "phases":["BCC_A2", "SIGMA"],
+  "conditions":{
+    "P": 101325,
+    "T": [1346.15, 1346.15, 1346.15, 1346.15]
+  },
+  "broadcast_conditions": false,
+  "output":"ZPF",
+  "values":[
+[["BCC_A2", ["V"], [0.382]], ["SIGMA", ["V"],[null]]],
+[["BCC_A2", ["V"], [0.402]], ["SIGMA", ["V"],[null]]],
+[["BCC_A2", ["V"], [0.537]], ["SIGMA", ["V"],[null]]],
+[["BCC_A2", ["V"], [0.553]], ["SIGMA", ["V"],[null]]]
+  ],
+  "reference": "greenfield1954sigma",
+  "comment":"From Table 1."
+}
