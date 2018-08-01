@@ -1,0 +1,23 @@
+{
+  "components": ["TI", "V"],
+  "phases": ["LIQUID"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1],
+    "sublattice_configurations": [
+      [["TI", "V"]]
+    ],
+    "sublattice_occupancies": [
+      [[0.5, 0.5]]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 298.15
+  },
+  "output": "HM_MIX",
+    "values":   [[[0]]],
+  "reference": "estimated",
+  "comment": "This data is estimated to give a good phase diagram with the other data"
+}
+
