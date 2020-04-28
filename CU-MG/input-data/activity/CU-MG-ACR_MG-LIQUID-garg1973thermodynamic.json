@@ -1,11 +1,6 @@
 {
   "components": ["CU", "MG", "VA"],
   "phases": ["LIQUID"],
-  "solver": {
-    "mode": "manual",
-    "sublattice_site_ratios": [1],
-    "sublattice_configurations": [["CU", "MG"]]
-  },
   "reference_state": {
     "phases": ["LIQUID"],
     "conditions": {
