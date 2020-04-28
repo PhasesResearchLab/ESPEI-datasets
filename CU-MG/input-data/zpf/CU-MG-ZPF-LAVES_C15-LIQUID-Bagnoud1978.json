@@ -28,5 +28,6 @@
         [["LIQUID", ["MG"], [0.35718]], ["LAVES_C15", ["MG"],  [null]]],
         [["LIQUID", ["MG"], [0.36806]], ["LAVES_C15", ["MG"],  [null]]]
     ],
-    "reference": "Bagnoud1978"
+    "reference": "Bagnoud1978",
+    "weight": 5.0
 }

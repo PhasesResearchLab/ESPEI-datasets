@@ -13,6 +13,7 @@
 	[["HCP_A3", ["CU"], [0.001134]], ["CUMG2", ["MG"], [null]]]
     ],
     "reference": "Jones1931",
-    "comment": "Interpolated composition from Table 6"
+    "comment": "Interpolated composition from Table 6",
+    "weight": 10.0
 }
 
