@@ -1,20 +1,29 @@
 # ESPEI datasets
 
-Datasets to be used with ESPEI
+Datasets to be used with ESPEI.
 
 ## Using the data
 
-See the [Cu-Mg example](http://espei.org/en/latest/cu-mg-example.html) on [espei.org](http://espei.org) for an example of using these datasets with ESPEI to automatically generate and fit CALPHAD models with pycalphad.
-The data here is Creative Commons Attribution 4.0 (CC-BY-4.0) licensed.
+See [espei.org](https://espei.org) for an example of using these datasets with ESPEI to automatically generate and fit CALPHAD models with pycalphad.
 
-## Contributing Checklist
+## Steps to contribute new datasets
 
-1. Save all of your work to a new branch
-1. Organize each dataset in to a folder for that system (e.g. `CU-MG-NI`) and a sub-folder called `input-data`
-1. Make sure each dataset has a BibTeX citation key in the "reference" field.
-	* To get this from Mendeley right click an entry and do "Copy As" -> "BIbTeX Entry"
-	* The the first piece of information in that text is the citation key. Your Mendeley entry should have a new field for Citation Key as well for you to customize it for next time you copy.
-	* Mendeley defaults to LastnameYEAR format, but I suggest something like LastnameYEARfirst_unique_title_words (with words separated by underscores). This ensures that the key is unique
-1. Add the BibTeX Entry to `references.bib` and make sure there are no conflicts in the citation key.
-1. Add yourself to the contributors with your email and any systems you have contributed to, e.g. `Brandon Bocklund; bocklund@psu.edu; CU-MG, CU-MG-NI`
-1. Commit your work, push and open a Pull Request. Use a PR summary similar to `AL-CO: Added datasets from ishikawa1998phase`
+Anyone is invited to use and contribute to this repository. Unsolicited contributions are welcome!
+
+By contributing your data to this repository, you agree to license that data as [Creative Commons Attribution 4.0 (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+1. Clone this repository and start working in a new branch
+#. Organize each dataset in to a folder for that system (see the Organization structure section below)
+#. For each dataset, ensure that there is a BibTeX citation key in the `"bibtex"` key and your name in the `"author"` key.
+#. Add the BibTeX entries corresponding to the added datasets to the `references.bib` file, making sure there are no conflicts in the chosen key name.
+#. Commit your work, push to your fork and open a Pull Request.
+
+## Organization structure
+
+`espei-datasets/<number components>/<elements (alphabetically sorted)>/<data type>/<optional data type specific organization>/<JSON files>`
+
+### Examples:
+
+- `espei-datasets/1-unary/Al/non-equilibrium-thermochemical/HM/<JSON files>`
+- `espei-datasets/2-binary/Al-Ni/zpf/<JSON files>`
+- `espei-datasets/2-binary/Al-Ni/equilibrium-thermochemical/SM/<JSON files>`
