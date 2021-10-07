@@ -20,6 +20,9 @@ By contributing your data to this repository, you agree to license that data as 
 
 ## Organization structure
 
+The organization structure is _for humans_.
+When ESPEI loads datasets from a directory, all of the datasets are flattened and read at the same level.
+
 `espei-datasets/<number components>/<elements (alphabetically sorted)>/<data type>/<optional data type specific organization>/<JSON files>`
 
 ### Examples:
