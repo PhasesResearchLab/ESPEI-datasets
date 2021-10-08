@@ -23,10 +23,10 @@ By contributing your data to this repository, you agree to license that data as 
 The organization structure is _for humans_.
 When ESPEI loads datasets from a directory, all of the datasets are flattened and read at the same level.
 
-`espei-datasets/<number components>/<elements (alphabetically sorted)>/<data type>/<optional data type specific organization>/<JSON files>`
+`datasets/<number components>/<elements (alphabetically sorted)>/<data type>/<optional data type specific organization>/<JSON files>`
 
 ### Examples:
 
-- `espei-datasets/1-unary/Al/non-equilibrium-thermochemical/HM/<JSON files>`
-- `espei-datasets/2-binary/Al-Ni/zpf/<JSON files>`
-- `espei-datasets/2-binary/Al-Ni/equilibrium-thermochemical/SM/<JSON files>`
+- `datasets/1-unary/Al/non-equilibrium-thermochemical/HM/<JSON files>`
+- `datasets/2-binary/Al-Ni/zpf/<JSON files>`
+- `datasets/2-binary/Al-Ni/equilibrium-thermochemical/SM/<JSON files>`
