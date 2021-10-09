@@ -1,0 +1,22 @@
+name: Check datasets
+
+on: [push, pull_request]
+
+jobs:
+  check:
+    name: Check datasets
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 100
+      matrix:
+        python-version: ["3.9"]
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0  # fetch the entire repo history, required to guarantee versioneer will pick up the tags
+    - uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - run: pip install espei
+    - run: espei --check-datasets datasets
