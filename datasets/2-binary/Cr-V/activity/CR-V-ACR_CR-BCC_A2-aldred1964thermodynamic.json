@@ -1,11 +1,6 @@
 {
   "components": ["CR", "V", "VA"],
   "phases": ["BCC_A2"],
-  "solver": {
-    "mode": "manual",
-    "sublattice_site_ratios": [1, 1],
-    "sublattice_configurations": [[["CR", "V"], "VA"]]
-  },
   "reference_state": {
     "phases": ["BCC_A2"],
     "conditions": {
