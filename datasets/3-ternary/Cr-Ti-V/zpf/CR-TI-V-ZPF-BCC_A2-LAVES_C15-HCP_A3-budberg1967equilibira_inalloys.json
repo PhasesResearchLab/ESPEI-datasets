@@ -1,0 +1,20 @@
+{
+"components":["TI", "CR", "V"],
+"phases":["BCC_A2", "LAVES_C15", "HCP_A3"],
+"conditions":{
+"P":101325,
+"T":[873.15,873.15,873.15,873.15,873.15,873.15]
+},
+"broadcast_conditions": false,
+"output":"ZPF",
+"values":[
+[["BCC_A2", ["TI", "V"], [0.063, 0.753]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.218, 0.437]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.255, 0.372]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.591, 0.122]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.643, 0.101]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.688, 0.064]], ["HCP_A3", ["TI", "V"], [null,null]]]
+],
+"reference":"budberg1967equilibira_inalloys",
+"comment":"converted everything to atomic%"
+}

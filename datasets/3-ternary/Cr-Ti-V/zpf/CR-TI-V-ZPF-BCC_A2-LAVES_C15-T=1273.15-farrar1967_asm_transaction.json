@@ -1,0 +1,34 @@
+{
+"components":["TI", "CR", "V"],
+"phases":["BCC_A2", "LAVES_C15"],
+"conditions":{
+"P":101325,
+"T":[1273.15,1273.15,1273.15,1273.15,1273.15,1273.15,1273.15,1273.15,1273.15,1273.15,1273.15,
+	1273.15,1273.15,1273.15,1273.15,1273.15,1273.15,1273.15,1273.15]
+},
+"broadcast_conditions": false,
+"output":"ZPF",
+"values":[
+[["BCC_A2", ["TI", "V"], [0.684, 0.034]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.662, 0.055]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.644, 0.072]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.641, 0.094]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.640, 0.115]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.619, 0.134]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.578, 0.172]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.566, 0.194]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.517, 0.244]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.464, 0.293]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.417, 0.343]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.365, 0.346]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.316, 0.346]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.264, 0.398]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.214, 0.446]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.165, 0.447]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.159, 0.400]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.159, 0.353]], ["LAVES_C15", ["TI", "V"], [null,null]]],
+[["BCC_A2", ["TI", "V"], [0.104, 0.355]], ["LAVES_C15", ["TI", "V"], [null,null]]]
+],
+"reference":"farrar1967_asm_transaction",
+"comment":"converted everything to atmoic%"
+}
