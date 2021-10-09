@@ -1,0 +1,26 @@
+{
+"components": ["NI", "V"],
+"phases": ["NI3V", "FCC_A1"],
+"conditions":{
+"P":101325,
+	"T": [873.85, 924.84, 975.16, 1024.12, 1074.44, 1175.07, 1174.32, 1073.68, 1024.72, 975.08, 925.44, 875.12]
+},
+"broadcast_conditions": false,
+"output":"ZPF",
+"values":[
+	[["FCC_A1", ["V"], [0.154]], ["NI3V", ["V"],[null]]],
+	[["FCC_A1", ["V"], [0.157]], ["NI3V", ["V"],[null]]],
+	[["FCC_A1", ["V"], [0.160]], ["NI3V", ["V"],[null]]],
+	[["FCC_A1", ["V"], [0.164]], ["NI3V", ["V"],[null]]],
+	[["FCC_A1", ["V"], [0.168]], ["NI3V", ["V"],[null]]],
+	[["FCC_A1", ["V"], [0.179]], ["NI3V", ["V"],[null]]],
+	[["NI3V", ["V"], [0.231]], ["FCC_A1", ["V"],[null]]],
+	[["NI3V", ["V"], [0.226]], ["FCC_A1", ["V"],[null]]],
+	[["NI3V", ["V"], [0.224]], ["FCC_A1", ["V"],[null]]],
+	[["NI3V", ["V"], [0.223]], ["FCC_A1", ["V"],[null]]],
+	[["NI3V", ["V"], [0.221]], ["FCC_A1", ["V"],[null]]],
+	[["NI3V", ["V"], [0.220]], ["FCC_A1", ["V"],[null]]]
+],
+"reference": "moreen1971ni8x_phases",
+"comment":"Digitized from figure 7 in watson2001some_experiences"
+}

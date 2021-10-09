@@ -1,0 +1,38 @@
+{
+"components": ["NI", "V"],
+"phases": ["BCC_A2", "FCC_A1", "LIQUID", "SIGMA"],
+"conditions":{
+"P":101325,
+	"T": [1724.15, 1712.15, 1700.15, 1652.15, 1584.15, 1714.15, 1701.15, 1676.15, 1621.15, 1519.15, 1547.15, 1496.15, 1488.15, 1525.15, 1540.15, 1470.15, 1497.15, 1507.15, 1523.15, 1555.15, 1589.15, 1714.15, 1550.15, 1724.90, 1716.11]
+},
+"broadcast_conditions": false,
+"output":"ZPF",
+"values":[[["LIQUID", ["V"], [0.102]], ["FCC_A1", ["V"],[null]]],
+[["LIQUID", ["V"], [0.156]], ["FCC_A1", ["V"],[null]]],
+[["LIQUID", ["V"], [0.205]], ["FCC_A1", ["V"],[null]]],
+[["LIQUID", ["V"], [0.296]], ["FCC_A1", ["V"],[null]]],
+[["LIQUID", ["V"], [0.406]], ["FCC_A1", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.102]], ["LIQUID", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.156]], ["LIQUID", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.205]], ["LIQUID", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.296]], ["LIQUID", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.406]], ["LIQUID", ["V"],[null]]],
+[["LIQUID", ["V"], [0.449]], ["FCC_A1", ["V"],[null]]],
+[["LIQUID", ["V"], [0.497]], ["FCC_A1", ["V"],[null]]],
+[["LIQUID", ["V"], [0.521]], ["SIGMA", ["V"],[null]]],
+[["LIQUID", ["V"], [0.566]], ["SIGMA", ["V"],[null]]],
+[["LIQUID", ["V"], [0.596]], ["SIGMA", ["V"],[null]]],
+[["SIGMA", ["V"], [0.566]], ["LIQUID", ["V"],[null]]],
+[["SIGMA", ["V"], [0.596]], ["LIQUID", ["V"],[null]]],
+[["SIGMA", ["V"], [0.611]], ["LIQUID", ["V"],[null]]],
+[["SIGMA", ["V"], [0.640]], ["LIQUID", ["V"],[null]]],
+[["LIQUID", ["V"], [0.611]], ["BCC_A2", ["V"],[null]]],
+[["LIQUID", ["V"], [0.640]], ["BCC_A2", ["V"],[null]]],
+[["LIQUID", ["V"], [0.700]], ["BCC_A2", ["V"],[null]]],
+[["LIQUID", ["V"], [0.700]], ["BCC_A2", ["V"],[null]]],
+[["LIQUID", ["V"], [0.052]], ["FCC_A1", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.052]], ["LIQUID", ["V"],[null]]]
+],
+"reference": "pearson1952constitution",
+"comment":"Digitized from Table 1 and 5. Note that the 5% alloy seems to be missing from the table, so it was digitized from Figure 1.. From heating/cooling curves"
+}

@@ -1,0 +1,27 @@
+{
+  "components": ["TI", "V"],
+  "phases": ["HCP_A3"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1],
+    "sublattice_configurations": [
+      [["TI", "V"]],
+      [["TI", "V"]],
+      [["TI", "V"]]
+    ],
+    "sublattice_occupancies": [
+      [[0.751, 0.249]],
+      [[0.503, 0.497]],
+      [[0.253, 0.747]]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 298.15
+  },
+  "output": "HM_MIX",
+    "values":   [[[-13631, -5856, -788]]],
+  "reference": "Barzilai2017effect_of_lattice_stability",
+  "comment": "Digitized from figure 2a. Converted from meV/atom to J/mol"
+}
+

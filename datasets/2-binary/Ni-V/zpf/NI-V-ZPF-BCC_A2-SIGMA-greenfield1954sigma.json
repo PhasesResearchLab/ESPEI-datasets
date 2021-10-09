@@ -1,0 +1,15 @@
+{
+"components": ["NI", "V"],
+"phases": ["BCC_A2", "SIGMA"],
+"conditions":{
+"P":101325,
+	"T": [1473.15]
+},
+"broadcast_conditions": false,
+"output":"ZPF",
+"values":[
+[["SIGMA", ["V"], [0.6875]], ["BCC_A2", ["V"],[null]]]
+],
+"reference": "greenfield1954sigma",
+"comment":"From Results section paragraph 2. Arithmetic mean of homogeneous and two phase"
+}

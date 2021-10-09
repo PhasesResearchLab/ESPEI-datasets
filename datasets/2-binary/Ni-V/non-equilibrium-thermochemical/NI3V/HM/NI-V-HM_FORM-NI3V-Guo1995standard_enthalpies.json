@@ -1,0 +1,22 @@
+{
+  "components": ["NI", "V"],
+  "phases": ["NI3V"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [3, 1],
+    "sublattice_configurations": [
+      ["NI", "V"]
+    ],
+    "sublattice_occupancies": [
+      [1, 1]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1477
+  },
+  "output": "HM_FORM",
+    "values":   [[[-21700]]],
+  "reference": "Guo1995standard_enthalpies",
+  "comment": "From Table 7. Converted from kJ to J. Two phase data neglected."
+}

@@ -1,0 +1,22 @@
+{
+  "components": ["NI", "V"],
+  "phases": ["NI2V"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [2, 1],
+    "sublattice_configurations": [
+      ["NI", "V"]
+    ],
+    "sublattice_occupancies": [
+      [1, 1]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1206
+  },
+  "output": "HM_FORM",
+    "values":   [[[-2440]]],
+  "reference": "estimated",
+  "comment": "Estimated from ref 42 (private communication) in assessement by pan2018reassessment."
+}

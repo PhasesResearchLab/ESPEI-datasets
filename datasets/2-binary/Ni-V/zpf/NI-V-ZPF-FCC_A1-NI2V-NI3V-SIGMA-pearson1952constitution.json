@@ -1,0 +1,33 @@
+{
+"components": ["NI", "V"],
+"phases": ["FCC_A1", "NI2V", "NI3V", "SIGMA"],
+"conditions":{
+"P":101325,
+	"T": [1205.36, 1255.41, 1205.63, 1205.84, 1198.82, 1253.84, 1256.89, 1377.63, 1378.18, 1257.99, 1207.04, 1125.91, 1075.06, 1075.17, 950.74, 1256.57, 1254.72, 1254.68, 1206.22, 1203.14]
+},
+"broadcast_conditions": false,
+"output":"ZPF",
+"values":[[["FCC_A1", ["V"], [0.203]], ["NI3V", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.305]], ["NI3V", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.321]], ["NI3V", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.387]], ["SIGMA", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.391]], ["SIGMA", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.393]], ["SIGMA", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.395]], ["SIGMA", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.410]], ["SIGMA", ["V"],[null]]],
+[["SIGMA", ["V"], [0.553]], ["FCC_A1", ["V"],[null]]],
+[["SIGMA", ["V"], [0.544]], ["FCC_A1", ["V"],[null]]],
+[["SIGMA", ["V"], [0.544]], ["FCC_A1", ["V"],[null]]],
+[["SIGMA", ["V"], [0.554]], ["NI2V", ["V"],[null]]],
+[["SIGMA", ["V"], [0.564]], ["NI2V", ["V"],[null]]],
+[["SIGMA", ["V"], [0.574]], ["NI2V", ["V"],[null]]],
+[["SIGMA", ["V"], [0.545]], ["NI2V", ["V"],[null]]],
+[["NI3V", ["V"], [0.272]], ["FCC_A1", ["V"],[null]]],
+[["NI3V", ["V"], [0.241]], ["FCC_A1", ["V"],[null]]],
+[["NI3V", ["V"], [0.238]], ["FCC_A1", ["V"],[null]]],
+[["NI3V", ["V"], [0.236]], ["FCC_A1", ["V"],[null]]],
+[["NI3V", ["V"], [0.277]], ["FCC_A1", ["V"],[null]]]
+],
+"reference": "pearson1952constitution",
+"comment":"Digitized from Figure 3, equilibrated alloys, lattice parameter."
+}

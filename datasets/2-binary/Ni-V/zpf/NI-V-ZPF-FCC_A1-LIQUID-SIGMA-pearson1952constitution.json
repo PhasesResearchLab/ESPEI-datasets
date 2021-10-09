@@ -1,0 +1,21 @@
+{
+"components": ["NI", "V"],
+"phases": ["FCC_A1", "LIQUID", "SIGMA"],
+"conditions":{
+	"P":101325,
+	"T": [1574.08, 1518.56, 1492.23, 1416.72, 1453.94, 1470.57, 1475.41, 1476.66]
+},
+"broadcast_conditions": false,
+"output":"ZPF",
+"values":[[["FCC_A1", ["V"], [0.340]], ["LIQUID", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.397]], ["LIQUID", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.419]], ["LIQUID", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.412]], ["SIGMA", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.420]], ["SIGMA", ["V"],[null]]],
+[["FCC_A1", ["V"], [0.421]], ["SIGMA", ["V"],[null]]],
+[["SIGMA", ["V"], [0.548]], ["LIQUID", ["V"],[null]]],
+[["SIGMA", ["V"], [0.602]], ["LIQUID", ["V"],[null]]]
+],
+"reference": "pearson1952constitution",
+"comment":"Digitized from Figure 5, equilibrated alloys."
+}

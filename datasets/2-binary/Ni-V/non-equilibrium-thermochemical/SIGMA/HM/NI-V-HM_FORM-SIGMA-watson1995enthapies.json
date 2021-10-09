@@ -1,0 +1,32 @@
+{
+  "components": ["NI", "V"],
+  "phases": ["SIGMA"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [10, 4, 16],
+    "sublattice_configurations": [
+      [["NI", "V"], ["NI", "V"], ["NI", "V"]],
+      [["NI", "V"], ["NI", "V"], ["NI", "V"]],
+      [["NI", "V"], ["NI", "V"], ["NI", "V"]],
+      [["NI", "V"], ["NI", "V"], ["NI", "V"]],
+      [["NI", "V"], ["NI", "V"], ["NI", "V"]],
+      [["NI", "V"], ["NI", "V"], ["NI", "V"]]
+    ],
+    "sublattice_occupancies": [
+      [[0.185, 0.815], [0.015, 0.985], [0.505, 0.495]],
+      [[0.185, 0.815], [0.015, 0.985], [0.505, 0.495]],
+      [[0.185, 0.815], [0.015, 0.985], [0.505, 0.495]],
+      [[0.205, 0.795], [0.0, 1.0], [0.57, 0.430]],
+      [[0.205, 0.795], [0.0, 1.0], [0.57, 0.430]],
+      [[0.205, 0.795], [0.0, 1.0], [0.57, 0.430]]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1473
+  },
+  "output": "HM_FORM",
+    "values":   [[[-9960, -9840, -10330, -9240, -8060, -9050]]],
+  "reference": "watson1995enthapies",
+  "comment": "From Table 7. Converted from kJ to J. Two phase data neglected. The site ratios are based on the numbers from kasper1956ordering, Table 2. The compositions of the 3 sigma phase site fractions were averaged to get the two compositions in Table 7. They should be considered extremely approximate (2 different studies) and should be replaced with as soon as more data becomes available."
+}
